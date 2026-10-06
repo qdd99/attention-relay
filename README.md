@@ -1,6 +1,6 @@
 # Attention Relay
 
-![Paper](https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b)
+[![Paper](https://img.shields.io/badge/arXiv-2610.05564-b31b1b)](https://arxiv.org/abs/2610.05564)
 [![Website](https://img.shields.io/badge/Project-Page-blue)](https://qdd99.github.io/attention-relay)
 
 This repository is for the paper "Lend Me Your Eyes: Instruction-Aware Text Embeddings via Attention Relay." It contains `attention_relay`, a library that makes an embedding model instruction-aware with no training, and the code to reproduce the paper's experiments.
