@@ -1,0 +1,8666 @@
+{
+ "qwen3-0.6b|qwen3-emb-0.6b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "under_location": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.909203927156234
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 47.53021471639108,
+     "location": 64.321111971438
+    },
+    "under_location": {
+     "topic": 38.123938397560835,
+     "location": 75.94952309455005
+    },
+    "switch": {
+     "topic": 9.406276318830244,
+     "location": 11.628411123112045
+    },
+    "nyt": 58.469465586156616
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -4.478959818941874,
+    5.938154049699904
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "under_intent": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 16.290480863591757,
+     "intent": 83.70951913640823
+    },
+    "under_intent": {
+     "emotion": 4.121687929342492,
+     "intent": 95.87831207065751
+    },
+    "switch": {
+     "emotion": 12.168792934249264,
+     "intent": 12.168792934249282
+    },
+    "ie": 112.16879293424927
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    10.402355250245343,
+    14.033366045142293
+   ]
+  }
+ },
+ "qwen3-0.6b|bge-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "under_location": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.67232491541534
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 49.64026682666559,
+     "location": 63.88814297821822
+    },
+    "under_location": {
+     "topic": 42.668602771121044,
+     "location": 82.30166482510901
+    },
+    "switch": {
+     "topic": 6.971664055544544,
+     "location": 18.413521846890795
+    },
+    "nyt": 61.928403670013964
+   },
+   "shuffled": [
+    {
+     "under_topic": {
+      "topic": 59.51065484825161,
+      "location": 50.853465267443745
+     },
+     "under_location": {
+      "topic": 56.8619618213436,
+      "location": 53.2299769708522
+     },
+     "switch": {
+      "topic": 2.6486930269080133,
+      "location": 2.376511703408454
+     },
+     "nyt": 56.19537048803192
+    },
+    {
+     "under_topic": {
+      "topic": 57.510138359528476,
+      "location": 54.31004833002383
+     },
+     "under_location": {
+      "topic": 59.0911599103649,
+      "location": 55.503496647229134
+     },
+     "switch": {
+      "topic": -1.5810215508364251,
+      "location": 1.193448317205302
+     },
+     "nyt": 56.48900278980784
+    },
+    {
+     "under_topic": {
+      "topic": 57.59731623819266,
+      "location": 54.39554650707059
+     },
+     "under_location": {
+      "topic": 58.39583238804272,
+      "location": 57.0649008707217
+     },
+     "switch": {
+      "topic": -0.7985161498500588,
+      "location": 2.6693543636511095
+     },
+     "nyt": 57.32987246184827
+    }
+   ],
+   "other_text": [
+    {
+     "under_topic": {
+      "topic": 55.04882180321077,
+      "location": 56.20299167097399
+     },
+     "under_location": {
+      "topic": 58.243643429757874,
+      "location": 52.19266908350879
+     },
+     "switch": {
+      "topic": -3.194821626547103,
+      "location": -4.010322587465197
+     },
+     "nyt": 53.58271161709545
+    },
+    {
+     "under_topic": {
+      "topic": 58.08554992409765,
+      "location": 55.22677947306995
+     },
+     "under_location": {
+      "topic": 55.46295157318527,
+      "location": 56.17545504228135
+     },
+     "switch": {
+      "topic": 2.6225983509123765,
+      "location": 0.948675569211396
+     },
+     "nyt": 57.1145370075977
+    },
+    {
+     "under_topic": {
+      "topic": 55.75824840984873,
+      "location": 55.14798151659607
+     },
+     "under_location": {
+      "topic": 57.359007684732234,
+      "location": 53.947884849808894
+     },
+     "switch": {
+      "topic": -1.600759274883501,
+      "location": -1.200096666787175
+     },
+     "nyt": 54.83812937777272
+    }
+   ],
+   "positional": {
+    "under_topic": {
+     "topic": 55.97040149369974,
+     "location": 62.755389058076915
+    },
+    "under_location": {
+     "topic": 54.94563743565423,
+     "location": 59.496800612212766
+    },
+    "switch": {
+     "topic": 1.0247640580455126,
+     "location": -3.2585884458641488
+    },
+    "nyt": 57.67975246811307
+   },
+   "interval": [
+    -0.8224916767868904,
+    11.651751944864921
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "under_intent": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 31.108930323846906,
+     "intent": 68.8910696761531
+    },
+    "under_intent": {
+     "emotion": 6.918547595682041,
+     "intent": 93.08145240431796
+    },
+    "switch": {
+     "emotion": 24.190382728164863,
+     "intent": 24.190382728164863
+    },
+    "ie": 124.19038272816486
+   },
+   "shuffled": [
+    {
+     "under_emotion": {
+      "emotion": 31.894013738959764,
+      "intent": 68.10598626104023
+     },
+     "under_intent": {
+      "emotion": 31.55053974484789,
+      "intent": 68.4494602551521
+     },
+     "switch": {
+      "emotion": 0.34347399411187496,
+      "intent": 0.34347399411187496
+     },
+     "ie": 100.34347399411186
+    },
+    {
+     "under_emotion": {
+      "emotion": 30.12757605495584,
+      "intent": 69.87242394504416
+     },
+     "under_intent": {
+      "emotion": 31.256133464180568,
+      "intent": 68.74386653581944
+     },
+     "switch": {
+      "emotion": -1.1285574092247295,
+      "intent": -1.128557409224726
+     },
+     "ie": 98.87144259077527
+    },
+    {
+     "under_emotion": {
+      "emotion": 30.17664376840039,
+      "intent": 69.8233562315996
+     },
+     "under_intent": {
+      "emotion": 30.56918547595682,
+      "intent": 69.43081452404319
+     },
+     "switch": {
+      "emotion": -0.3925417075564326,
+      "intent": -0.3925417075564184
+     },
+     "ie": 99.60745829244357
+    }
+   ],
+   "other_text": [
+    {
+     "under_emotion": {
+      "emotion": 25.956820412168792,
+      "intent": 74.0431795878312
+     },
+     "under_intent": {
+      "emotion": 23.159960745829245,
+      "intent": 76.84003925417076
+     },
+     "switch": {
+      "emotion": 2.7968596663395466,
+      "intent": 2.7968596663395573
+     },
+     "ie": 102.79685966633956
+    },
+    {
+     "under_emotion": {
+      "emotion": 25.76054955839058,
+      "intent": 74.23945044160942
+     },
+     "under_intent": {
+      "emotion": 22.669283611383708,
+      "intent": 77.3307163886163
+     },
+     "switch": {
+      "emotion": 3.091265947006871,
+      "intent": 3.0912659470068746
+     },
+     "ie": 103.09126594700687
+    },
+    {
+     "under_emotion": {
+      "emotion": 25.76054955839058,
+      "intent": 74.23945044160942
+     },
+     "under_intent": {
+      "emotion": 23.454367026496563,
+      "intent": 76.54563297350343
+     },
+     "switch": {
+      "emotion": 2.3061825318940166,
+      "intent": 2.3061825318940095
+     },
+     "ie": 102.30618253189401
+    }
+   ],
+   "positional": {
+    "under_emotion": {
+     "emotion": 24.681059862610404,
+     "intent": 75.3189401373896
+    },
+    "under_intent": {
+     "emotion": 21.246319921491658,
+     "intent": 78.75368007850834
+    },
+    "switch": {
+     "emotion": 3.434739941118746,
+     "intent": 3.4347399411187354
+    },
+    "ie": 103.43473994111875
+   },
+   "interval": [
+    21.54072620215899,
+    26.889106967615316
+   ]
+  }
+ },
+ "qwen3-0.6b|gte-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "under_location": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.80209759253981
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 49.4173440925923,
+     "location": 67.85501642101983
+    },
+    "under_location": {
+     "topic": 39.649279530536006,
+     "location": 79.71973678160056
+    },
+    "switch": {
+     "topic": 9.768064562056296,
+     "location": 11.864720360580733
+    },
+    "nyt": 61.013268021981816
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -1.962679995232732,
+    8.340063621546637
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "under_intent": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 17.517173699705594,
+     "intent": 82.4828263002944
+    },
+    "under_intent": {
+     "emotion": 4.416094210009813,
+     "intent": 95.58390578999018
+    },
+    "switch": {
+     "emotion": 13.101079489695781,
+     "intent": 13.101079489695778
+    },
+    "ie": 113.10107948969578
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    10.695534838076544,
+    15.505397448478897
+   ]
+  }
+ },
+ "qwen3-0.6b|all-mpnet-base-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "under_location": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.70687539469155
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 49.83492681266594,
+     "location": 65.63069884013477
+    },
+    "under_location": {
+     "topic": 43.20100431717589,
+     "location": 80.52062244334624
+    },
+    "switch": {
+     "topic": 6.633922495490054,
+     "location": 14.889923603211471
+    },
+    "nyt": 61.5660683299773
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "under_location": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.61549631685255
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 53.25581460394708,
+     "location": 58.471296661229054
+    },
+    "under_location": {
+     "topic": 53.61031844237731,
+     "location": 58.45972621523525
+    },
+    "switch": {
+     "topic": -0.35450383843023303,
+     "location": -0.011570445993804412
+    },
+    "nyt": 55.73656660942604
+   },
+   "interval": [
+    1.0624014719839916,
+    10.382582782668589
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "under_intent": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 23.65063788027478,
+     "intent": 76.34936211972521
+    },
+    "under_intent": {
+     "emotion": 7.409224730127575,
+     "intent": 92.59077526987242
+    },
+    "switch": {
+     "emotion": 16.241413150147203,
+     "intent": 16.24141315014721
+    },
+    "ie": 116.2414131501472
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "under_intent": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.00000000000001
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 15.309126594700686,
+     "intent": 84.69087340529931
+    },
+    "under_intent": {
+     "emotion": 14.474975466143277,
+     "intent": 85.52502453385672
+    },
+    "switch": {
+     "emotion": 0.8341511285574086,
+     "intent": 0.8341511285574086
+    },
+    "ie": 100.83415112855741
+   },
+   "interval": [
+    14.278704612365068,
+    18.25318940137388
+   ]
+  }
+ },
+ "qwen3-0.6b|e5-large-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "under_location": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.27379069900862
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 59.53112406518706,
+     "location": 54.89540734897338
+    },
+    "under_location": {
+     "topic": 51.924910335009486,
+     "location": 66.62897087083331
+    },
+    "switch": {
+     "topic": 7.606213730177572,
+     "location": 11.733563521859935
+    },
+    "nyt": 62.88038279025399
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "under_location": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.7826558849076
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 57.25383562430062,
+     "location": 53.4920837558
+    },
+    "under_location": {
+     "topic": 57.31282913584237,
+     "location": 52.86921791514969
+    },
+    "switch": {
+     "topic": -0.058993511541750365,
+     "location": -0.6228658406503129
+    },
+    "nyt": 54.97423863183102
+   },
+   "interval": [
+    2.756607622276325,
+    15.999875131661984
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "under_intent": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 56.91854759568204,
+     "intent": 43.08145240431796
+    },
+    "under_intent": {
+     "emotion": 40.57899901864573,
+     "intent": 59.42100098135427
+    },
+    "switch": {
+     "emotion": 16.33954857703631,
+     "intent": 16.33954857703631
+    },
+    "ie": 116.33954857703631
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "under_intent": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 56.23159960745829,
+     "intent": 43.76840039254171
+    },
+    "under_intent": {
+     "emotion": 55.34838076545633,
+     "intent": 44.65161923454367
+    },
+    "switch": {
+     "emotion": 0.8832188420019662,
+     "intent": 0.8832188420019662
+    },
+    "ie": 100.88321884200197
+   },
+   "interval": [
+    14.37684003925418,
+    18.401619234543677
+   ]
+  }
+ },
+ "qwen3-0.6b|all-MiniLM-L6-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 56.64872653118432,
+     "location": 57.7430713824022
+    },
+    "under_location": {
+     "topic": 56.64872653118432,
+     "location": 57.7430713824022
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.1906643561068
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 50.06943564993689,
+     "location": 58.03753185741519
+    },
+    "under_location": {
+     "topic": 38.14771160556625,
+     "location": 79.53244414734542
+    },
+    "switch": {
+     "topic": 11.921724044370642,
+     "location": 21.494912289930227
+    },
+    "nyt": 61.45195734067569
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 57.442841153579195,
+     "location": 57.87605035663188
+    },
+    "under_location": {
+     "topic": 57.442841153579195,
+     "location": 57.87605035663188
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.65863205352347
+   },
+   "interval": [
+    0.5745261075094382,
+    10.140056625343874
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "under_intent": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 27.134445534838076,
+     "intent": 72.86555446516192
+    },
+    "under_intent": {
+     "emotion": 4.612365063788027,
+     "intent": 95.38763493621197
+    },
+    "switch": {
+     "emotion": 22.52208047105005,
+     "intent": 22.522080471050046
+    },
+    "ie": 122.52208047105005
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "under_intent": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "interval": [
+    20.314033366045138,
+    24.78042198233563
+   ]
+  }
+ },
+ "qwen3-0.6b|bge-small-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 61.124950388190314,
+     "location": 50.08588054358953
+    },
+    "under_location": {
+     "topic": 61.124950388190314,
+     "location": 50.08588054358953
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.05753239495576
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 49.19594974889429,
+     "location": 61.6680317226668
+    },
+    "under_location": {
+     "topic": 37.39458074993499,
+     "location": 76.71707020519868
+    },
+    "switch": {
+     "topic": 11.801368998959305,
+     "location": 15.049038482531884
+    },
+    "nyt": 59.948830264628896
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -0.6765243332609853,
+    10.512932494218513
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "under_intent": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 31.256133464180568,
+     "intent": 68.74386653581944
+    },
+    "under_intent": {
+     "emotion": 6.329735034347399,
+     "intent": 93.6702649656526
+    },
+    "switch": {
+     "emotion": 24.92639842983317,
+     "intent": 24.92639842983317
+    },
+    "ie": 124.92639842983317
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    22.522080471050067,
+    27.675417075564287
+   ]
+  }
+ },
+ "qwen3-0.6b|bge-base-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 62.00665943008674,
+     "location": 49.547771777784014
+    },
+    "under_location": {
+     "topic": 62.00665943008674,
+     "location": 49.547771777784014
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.08148402266981
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 56.45869971585908,
+     "location": 57.294745251237465
+    },
+    "under_location": {
+     "topic": 45.702443584063616,
+     "location": 75.13332847352281
+    },
+    "switch": {
+     "topic": 10.756256131795467,
+     "location": 17.838583222285344
+    },
+    "nyt": 64.47092714161349
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    1.8889629728084427,
+    13.730755283330822
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "under_intent": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 33.7585868498528,
+     "intent": 66.2414131501472
+    },
+    "under_intent": {
+     "emotion": 7.8508341511285575,
+     "intent": 92.14916584887143
+    },
+    "switch": {
+     "emotion": 25.907752698724238,
+     "intent": 25.907752698724238
+    },
+    "ie": 125.90775269872424
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    23.35623159960747,
+    28.557409224730122
+   ]
+  }
+ },
+ "qwen3-0.6b|qwen3-emb-4b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 46.958495702458855,
+     "location": 73.34109602535084
+    },
+    "under_location": {
+     "topic": 46.958495702458855,
+     "location": 73.34109602535084
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.256845065340045
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 42.337030415059594,
+     "location": 70.43384139575399
+    },
+    "under_location": {
+     "topic": 39.0419404858584,
+     "location": 78.86737358441984
+    },
+    "switch": {
+     "topic": 3.295089929201197,
+     "location": 8.43353218866585
+    },
+    "nyt": 55.097179376192344
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -8.218834161842976,
+    3.963594819504294
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "under_intent": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 99.99999999999999
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 17.17369970559372,
+     "intent": 82.82630029440628
+    },
+    "under_intent": {
+     "emotion": 3.9254170755642788,
+     "intent": 96.07458292443573
+    },
+    "switch": {
+     "emotion": 13.24828263002944,
+     "intent": 13.24828263002945
+    },
+    "ie": 113.24828263002945
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    11.38370951913641,
+    15.11285574092247
+   ]
+  }
+ },
+ "qwen3-0.6b|qwen3-emb-8b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 58.33974611004166,
+     "location": 58.82254578721666
+    },
+    "under_location": {
+     "topic": 58.33974611004166,
+     "location": 58.82254578721666
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 58.58015119322763
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 48.06878441611276,
+     "location": 68.97833196155165
+    },
+    "under_location": {
+     "topic": 42.76604806873002,
+     "location": 80.60360346231704
+    },
+    "switch": {
+     "topic": 5.302736347382741,
+     "location": 11.625271500765393
+    },
+    "nyt": 60.222978711213585
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -3.1709594677644652,
+    8.595699536056351
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "under_intent": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 17.17369970559372,
+     "intent": 82.82630029440628
+    },
+    "under_intent": {
+     "emotion": 3.3366045142296366,
+     "intent": 96.66339548577037
+    },
+    "switch": {
+     "emotion": 13.837095191364083,
+     "intent": 13.837095191364085
+    },
+    "ie": 113.83709519136409
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    12.020363101079475,
+    15.75073601570166
+   ]
+  }
+ },
+ "qwen3-1.7b|qwen3-emb-0.6b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "under_location": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.909203927156234
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 56.888117647320534,
+     "location": 47.78074053705866
+    },
+    "under_location": {
+     "topic": 35.01621051389298,
+     "location": 74.67948033110808
+    },
+    "switch": {
+     "topic": 21.871907133427555,
+     "location": 26.89873979404942
+    },
+    "nyt": 64.58087140241165
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    2.902630711788312,
+    12.235344799785128
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "under_intent": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 48.67517173699706,
+     "intent": 51.32482826300294
+    },
+    "under_intent": {
+     "emotion": 6.035328753680078,
+     "intent": 93.96467124631992
+    },
+    "switch": {
+     "emotion": 42.63984298331698,
+     "intent": 42.63984298331698
+    },
+    "ie": 142.63984298331698
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    40.1864573110893,
+    45.09322865554465
+   ]
+  }
+ },
+ "qwen3-1.7b|bge-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "under_location": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.67232491541534
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 59.20301757564087,
+     "location": 47.61340024308785
+    },
+    "under_location": {
+     "topic": 40.053244670661456,
+     "location": 77.76002886270581
+    },
+    "switch": {
+     "topic": 19.149772904979415,
+     "location": 30.146628619617957
+    },
+    "nyt": 67.22438606795747
+   },
+   "shuffled": [
+    {
+     "under_topic": {
+      "topic": 57.22844993945463,
+      "location": 54.25905903975925
+     },
+     "under_location": {
+      "topic": 60.68684981292496,
+      "location": 50.94125811276251
+     },
+     "switch": {
+      "topic": -3.4583998734703343,
+      "location": -3.317800926996739
+     },
+     "nyt": 53.90213752494935
+    },
+    {
+     "under_topic": {
+      "topic": 56.716845507200155,
+      "location": 55.26492290238802
+     },
+     "under_location": {
+      "topic": 57.882531203214384,
+      "location": 54.85393603997788
+     },
+     "switch": {
+      "topic": -1.1656856960142292,
+      "location": -0.41098686241014093
+     },
+     "nyt": 55.76983817215305
+    },
+    {
+     "under_topic": {
+      "topic": 57.36232887286734,
+      "location": 55.14391187395154
+     },
+     "under_location": {
+      "topic": 56.091865878611614,
+      "location": 57.498185850697816
+     },
+     "switch": {
+      "topic": 1.2704629942557233,
+      "location": 2.3542739767462777
+     },
+     "nyt": 57.43017701548894
+    }
+   ],
+   "other_text": [
+    {
+     "under_topic": {
+      "topic": 54.37906873062198,
+      "location": 54.95339555039358
+     },
+     "under_location": {
+      "topic": 59.450635674899054,
+      "location": 52.71238329821358
+     },
+     "switch": {
+      "topic": -5.071566944277073,
+      "location": -2.241012252179999
+     },
+     "nyt": 53.53275653653209
+    },
+    {
+     "under_topic": {
+      "topic": 56.38699629417655,
+      "location": 54.46286276444789
+     },
+     "under_location": {
+      "topic": 57.67898594395812,
+      "location": 56.725642086831016
+     },
+     "switch": {
+      "topic": -1.29198964978157,
+      "location": 2.2627793223831247
+     },
+     "nyt": 56.55581225738103
+    },
+    {
+     "under_topic": {
+      "topic": 54.44768972971138,
+      "location": 55.87241503117977
+     },
+     "under_location": {
+      "topic": 58.27426918657921,
+      "location": 53.62216340136108
+     },
+     "switch": {
+      "topic": -3.826579456867833,
+      "location": -2.250251629818692
+     },
+     "nyt": 54.03177354086228
+    }
+   ],
+   "positional": {
+    "under_topic": {
+     "topic": 55.816172780518635,
+     "location": 59.13338506343979
+    },
+    "under_location": {
+     "topic": 57.53442740532441,
+     "location": 59.168804191737
+    },
+    "switch": {
+     "topic": -1.7182546248057733,
+     "location": 0.03541912829721383
+    },
+    "nyt": 57.44361193811978
+   },
+   "interval": [
+    7.472951402084395,
+    16.16339212875796
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "under_intent": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 68.79293424926398,
+     "intent": 31.207065750736017
+    },
+    "under_intent": {
+     "emotion": 11.040235525024533,
+     "intent": 88.95976447497547
+    },
+    "switch": {
+     "emotion": 57.752698724239444,
+     "intent": 57.75269872423945
+    },
+    "ie": 157.75269872423945
+   },
+   "shuffled": [
+    {
+     "under_emotion": {
+      "emotion": 29.931305201177626,
+      "intent": 70.06869479882238
+     },
+     "under_intent": {
+      "emotion": 31.207065750736017,
+      "intent": 68.79293424926398
+     },
+     "switch": {
+      "emotion": -1.2757605495583917,
+      "intent": -1.2757605495583988
+     },
+     "ie": 98.7242394504416
+    },
+    {
+     "under_emotion": {
+      "emotion": 30.225711481844947,
+      "intent": 69.77428851815506
+     },
+     "under_intent": {
+      "emotion": 30.520117762512267,
+      "intent": 69.47988223748773
+     },
+     "switch": {
+      "emotion": -0.2944062806673209,
+      "intent": -0.29440628066733154
+     },
+     "ie": 99.70559371933268
+    },
+    {
+     "under_emotion": {
+      "emotion": 30.42198233562316,
+      "intent": 69.57801766437684
+     },
+     "under_intent": {
+      "emotion": 30.029440628066734,
+      "intent": 69.97055937193328
+     },
+     "switch": {
+      "emotion": 0.3925417075564255,
+      "intent": 0.3925417075564326
+     },
+     "ie": 100.39254170755643
+    }
+   ],
+   "other_text": [
+    {
+     "under_emotion": {
+      "emotion": 41.51128557409225,
+      "intent": 58.48871442590775
+     },
+     "under_intent": {
+      "emotion": 26.20215897939156,
+      "intent": 73.79784102060843
+     },
+     "switch": {
+      "emotion": 15.30912659470069,
+      "intent": 15.309126594700679
+     },
+     "ie": 115.30912659470067
+    },
+    {
+     "under_emotion": {
+      "emotion": 40.72620215897939,
+      "intent": 59.2737978410206
+     },
+     "under_intent": {
+      "emotion": 26.251226692836116,
+      "intent": 73.74877330716389
+     },
+     "switch": {
+      "emotion": 14.474975466143274,
+      "intent": 14.474975466143285
+     },
+     "ie": 114.47497546614328
+    },
+    {
+     "under_emotion": {
+      "emotion": 41.46221786064769,
+      "intent": 58.5377821393523
+     },
+     "under_intent": {
+      "emotion": 25.417075564278708,
+      "intent": 74.5829244357213
+     },
+     "switch": {
+      "emotion": 16.045142296368983,
+      "intent": 16.045142296368994
+     },
+     "ie": 116.045142296369
+    }
+   ],
+   "positional": {
+    "under_emotion": {
+     "emotion": 42.9342492639843,
+     "intent": 57.065750736015694
+    },
+    "under_intent": {
+     "emotion": 22.718351324828262,
+     "intent": 77.28164867517174
+    },
+    "switch": {
+     "emotion": 20.215897939156037,
+     "intent": 20.215897939156044
+    },
+    "ie": 120.21589793915604
+   },
+   "interval": [
+    54.90677134445535,
+    60.64769381746811
+   ]
+  }
+ },
+ "qwen3-1.7b|gte-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "under_location": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.80209759253981
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 61.38347479345945,
+     "location": 48.22143407874834
+    },
+    "under_location": {
+     "topic": 37.154353987776986,
+     "location": 78.25725290201511
+    },
+    "switch": {
+     "topic": 24.229120805682463,
+     "location": 30.035818823266773
+    },
+    "nyt": 68.8008747900202
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    6.68091974353264,
+    15.950661655254889
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "under_intent": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 50.147203140333666,
+     "intent": 49.852796859666334
+    },
+    "under_intent": {
+     "emotion": 7.801766437684004,
+     "intent": 92.198233562316
+    },
+    "switch": {
+     "emotion": 42.345436702649664,
+     "intent": 42.34543670264967
+    },
+    "ie": 142.34543670264966
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    39.74484789008831,
+    44.946025515211
+   ]
+  }
+ },
+ "qwen3-1.7b|all-mpnet-base-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "under_location": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.70687539469155
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 56.73818541927478,
+     "location": 53.269721852655174
+    },
+    "under_location": {
+     "topic": 39.6911239855544,
+     "location": 79.86859429687956
+    },
+    "switch": {
+     "topic": 17.04706143372038,
+     "location": 26.59887244422439
+    },
+    "nyt": 66.34515683300499
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "under_location": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.61549631685255
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 54.8330347221508,
+     "location": 57.46014217184114
+    },
+    "under_location": {
+     "topic": 54.816635647479195,
+     "location": 59.171531992366866
+    },
+    "switch": {
+     "topic": 0.01639907467160384,
+     "location": 1.7113898205257243
+    },
+    "nyt": 56.91973158227316
+   },
+   "interval": [
+    6.036678555016887,
+    14.763893574674812
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "under_intent": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 46.22178606476938,
+     "intent": 53.778213935230625
+    },
+    "under_intent": {
+     "emotion": 10.647693817468106,
+     "intent": 89.35230618253189
+    },
+    "switch": {
+     "emotion": 35.57409224730128,
+     "intent": 35.574092247301266
+    },
+    "ie": 135.57409224730128
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "under_intent": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.00000000000001
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 20.755642787046124,
+     "intent": 79.24435721295387
+    },
+    "under_intent": {
+     "emotion": 14.867517173699706,
+     "intent": 85.13248282630029
+    },
+    "switch": {
+     "emotion": 5.888125613346418,
+     "intent": 5.888125613346418
+    },
+    "ie": 105.88812561334642
+   },
+   "interval": [
+    33.16977428851815,
+    37.92934249263984
+   ]
+  }
+ },
+ "qwen3-1.7b|e5-large-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "under_location": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.27379069900862
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 59.667334338694204,
+     "location": 49.817733632031135
+    },
+    "under_location": {
+     "topic": 46.02528905442965,
+     "location": 76.67378096686112
+    },
+    "switch": {
+     "topic": 13.642045284264555,
+     "location": 26.85604733482998
+    },
+    "nyt": 67.10991198326434
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "under_location": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.7826558849076
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 57.998944679991105,
+     "location": 52.962486814746356
+    },
+    "under_location": {
+     "topic": 57.36590472983806,
+     "location": 53.87407752830864
+    },
+    "switch": {
+     "topic": 0.6330399501530479,
+     "location": 0.9115907135622834
+    },
+    "nyt": 55.86046717150688
+   },
+   "interval": [
+    8.802634611666731,
+    20.227649839218422
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "under_intent": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 71.88420019627085,
+     "intent": 28.115799803729146
+    },
+    "under_intent": {
+     "emotion": 46.61432777232581,
+     "intent": 53.385672227674185
+    },
+    "switch": {
+     "emotion": 25.269872423945046,
+     "intent": 25.26987242394504
+    },
+    "ie": 125.26987242394503
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "under_intent": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 58.97939156035329,
+     "intent": 41.02060843964671
+    },
+    "under_intent": {
+     "emotion": 55.64278704612365,
+     "intent": 44.35721295387635
+    },
+    "switch": {
+     "emotion": 3.3366045142296414,
+     "intent": 3.3366045142296414
+    },
+    "ie": 103.33660451422963
+   },
+   "interval": [
+    23.15996074582925,
+    27.477919528949958
+   ]
+  }
+ },
+ "qwen3-1.7b|all-MiniLM-L6-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 56.64872653118432,
+     "location": 57.7430713824022
+    },
+    "under_location": {
+     "topic": 56.64872653118432,
+     "location": 57.7430713824022
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.1906643561068
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 55.7958661509209,
+     "location": 39.93360017949829
+    },
+    "under_location": {
+     "topic": 31.583477114079766,
+     "location": 70.24248216419733
+    },
+    "switch": {
+     "topic": 24.212389036841135,
+     "location": 30.308881984699035
+    },
+    "nyt": 62.19123283196494
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 57.442841153579195,
+     "location": 57.87605035663188
+    },
+    "under_location": {
+     "topic": 57.442841153579195,
+     "location": 57.87605035663188
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.65863205352347
+   },
+   "interval": [
+    1.7466396186269135,
+    10.474972230668909
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "under_intent": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 67.02649656526006,
+     "intent": 32.97350343473994
+    },
+    "under_intent": {
+     "emotion": 9.126594700686947,
+     "intent": 90.87340529931305
+    },
+    "switch": {
+     "emotion": 57.89990186457311,
+     "intent": 57.89990186457311
+    },
+    "ie": 157.8999018645731
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "under_intent": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "interval": [
+    55.20117762512267,
+    60.598626104023566
+   ]
+  }
+ },
+ "qwen3-1.7b|bge-small-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 61.124950388190314,
+     "location": 50.08588054358953
+    },
+    "under_location": {
+     "topic": 61.124950388190314,
+     "location": 50.08588054358953
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.05753239495576
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 59.872721595005906,
+     "location": 44.48001124685255
+    },
+    "under_location": {
+     "topic": 32.483339305910796,
+     "location": 68.51029371473342
+    },
+    "switch": {
+     "topic": 27.38938228909511,
+     "location": 24.030282467880873
+    },
+    "nyt": 63.900940977995404
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    2.5516723612930385,
+    13.352225282032382
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "under_intent": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 71.24631992149166,
+     "intent": 28.753680078508342
+    },
+    "under_intent": {
+     "emotion": 10.40235525024534,
+     "intent": 89.59764474975465
+    },
+    "switch": {
+     "emotion": 60.843964671246326,
+     "intent": 60.84396467124631
+    },
+    "ie": 160.8439646712463
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    58.09494602551521,
+    63.88616290480864
+   ]
+  }
+ },
+ "qwen3-1.7b|bge-base-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 62.00665943008674,
+     "location": 49.547771777784014
+    },
+    "under_location": {
+     "topic": 62.00665943008674,
+     "location": 49.547771777784014
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.08148402266981
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 61.4470026290889,
+     "location": 46.19488909864633
+    },
+    "under_location": {
+     "topic": 39.96243374779272,
+     "location": 80.39145565562707
+    },
+    "switch": {
+     "topic": 21.484568881296177,
+     "location": 34.19656655698074
+    },
+    "nyt": 69.65408460767331
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    8.806492906685632,
+    18.084237612596276
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "under_intent": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 67.5171736997056,
+     "intent": 32.482826300294406
+    },
+    "under_intent": {
+     "emotion": 11.530912659470069,
+     "intent": 88.46908734052992
+    },
+    "switch": {
+     "emotion": 55.986261040235526,
+     "intent": 55.98626104023552
+    },
+    "ie": 155.98626104023552
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    53.14033366045143,
+    58.783120706575076
+   ]
+  }
+ },
+ "qwen3-1.7b|qwen3-emb-4b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 46.958495702458855,
+     "location": 73.34109602535084
+    },
+    "under_location": {
+     "topic": 46.958495702458855,
+     "location": 73.34109602535084
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.256845065340045
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 53.319479007897655,
+     "location": 57.66634957717288
+    },
+    "under_location": {
+     "topic": 36.19379789079872,
+     "location": 75.68846178092899
+    },
+    "switch": {
+     "topic": 17.125681117098935,
+     "location": 18.02211220375611
+    },
+    "nyt": 62.564665777326375
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    0.02864103675978035,
+    11.08297321697842
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "under_intent": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 99.99999999999999
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 46.5161923454367,
+     "intent": 53.4838076545633
+    },
+    "under_intent": {
+     "emotion": 7.45829244357213,
+     "intent": 92.54170755642787
+    },
+    "switch": {
+     "emotion": 39.05789990186457,
+     "intent": 39.057899901864566
+    },
+    "ie": 139.05789990186457
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    36.6045142296369,
+    41.5603532875368
+   ]
+  }
+ },
+ "qwen3-1.7b|qwen3-emb-8b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 58.33974611004166,
+     "location": 58.82254578721666
+    },
+    "under_location": {
+     "topic": 58.33974611004166,
+     "location": 58.82254578721666
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 58.58015119322763
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 60.29691115280712,
+     "location": 54.55176797350312
+    },
+    "under_location": {
+     "topic": 38.83717319719322,
+     "location": 81.0349113550452
+    },
+    "switch": {
+     "topic": 21.459737955613896,
+     "location": 26.483143381542078
+    },
+    "nyt": 69.14443985104229
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    4.146072267822565,
+    14.039416659127433
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "under_intent": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 45.976447497546616,
+     "intent": 54.023552502453384
+    },
+    "under_intent": {
+     "emotion": 5.642787046123651,
+     "intent": 94.35721295387634
+    },
+    "switch": {
+     "emotion": 40.333660451422965,
+     "intent": 40.33366045142296
+    },
+    "ie": 140.33366045142296
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    37.9784102060844,
+    42.787046123650626
+   ]
+  }
+ },
+ "qwen3-4b|qwen3-emb-0.6b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "under_location": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.909203927156234
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 43.91739067888405,
+     "location": 62.69714659166088
+    },
+    "under_location": {
+     "topic": 32.81108151279658,
+     "location": 74.27595687250708
+    },
+    "switch": {
+     "topic": 11.10630916608747,
+     "location": 11.578810280846199
+    },
+    "nyt": 55.19779722918666
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -5.078087161535348,
+    4.191499731458453
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "under_intent": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 57.507360157016684,
+     "intent": 42.492639842983316
+    },
+    "under_intent": {
+     "emotion": 5.691854759568204,
+     "intent": 94.3081452404318
+    },
+    "switch": {
+     "emotion": 51.81550539744848,
+     "intent": 51.81550539744848
+    },
+    "ie": 151.81550539744848
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    49.362119725220786,
+    54.26889106967614
+   ]
+  }
+ },
+ "qwen3-4b|bge-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "under_location": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.67232491541534
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 46.707971268658135,
+     "location": 65.68156840173789
+    },
+    "under_location": {
+     "topic": 37.756533898328236,
+     "location": 82.46374343612152
+    },
+    "switch": {
+     "topic": 8.951437370329899,
+     "location": 16.782175034383627
+    },
+    "nyt": 59.637114331006394
+   },
+   "shuffled": [
+    {
+     "under_topic": {
+      "topic": 55.43415260450046,
+      "location": 55.14687549715713
+     },
+     "under_location": {
+      "topic": 57.43648396458123,
+      "location": 53.30356072638752
+     },
+     "switch": {
+      "topic": -2.002331360080767,
+      "location": -1.8433147707696094
+     },
+     "nyt": 54.347983402062205
+    },
+    {
+     "under_topic": {
+      "topic": 55.731068716532505,
+      "location": 55.069229072682276
+     },
+     "under_location": {
+      "topic": 57.354992502507976,
+      "location": 54.68918973922114
+     },
+     "switch": {
+      "topic": -1.623923785975471,
+      "location": -0.3800393334611343
+     },
+     "nyt": 55.2052138621235
+    },
+    {
+     "under_topic": {
+      "topic": 56.13129646537956,
+      "location": 55.639216454908144
+     },
+     "under_location": {
+      "topic": 56.70462643624808,
+      "location": 52.64305338909292
+     },
+     "switch": {
+      "topic": -0.5733299708685138,
+      "location": -2.9961630658152245
+     },
+     "nyt": 54.331243359342686
+    }
+   ],
+   "other_text": [
+    {
+     "under_topic": {
+      "topic": 52.582640329726196,
+      "location": 57.90779195925372
+     },
+     "under_location": {
+      "topic": 52.84398408802373,
+      "location": 57.15864086244831
+     },
+     "switch": {
+      "topic": -0.2613437582975351,
+      "location": -0.7491510968054129
+     },
+     "nyt": 54.775235381397096
+    },
+    {
+     "under_topic": {
+      "topic": 55.30256687527737,
+      "location": 54.21158563399988
+     },
+     "under_location": {
+      "topic": 54.178819405248404,
+      "location": 55.38117667637103
+     },
+     "switch": {
+      "topic": 1.1237474700289667,
+      "location": 1.1695910423711453
+     },
+     "nyt": 55.3418438602003
+    },
+    {
+     "under_topic": {
+      "topic": 53.82040619519308,
+      "location": 54.789630880749506
+     },
+     "under_location": {
+      "topic": 54.216361419306445,
+      "location": 53.98608471173464
+     },
+     "switch": {
+      "topic": -0.39595522411336503,
+      "location": -0.8035461690148651
+     },
+     "nyt": 53.90311814443813
+    }
+   ],
+   "positional": {
+    "under_topic": {
+     "topic": 56.16134768770389,
+     "location": 62.17195623531466
+    },
+    "under_location": {
+     "topic": 55.41768971223888,
+     "location": 61.763755240323285
+    },
+    "switch": {
+     "topic": 0.7436579754650054,
+     "location": -0.4082009949913754
+    },
+    "nyt": 58.82947135755626
+   },
+   "interval": [
+    -2.504283901780142,
+    8.24734034144466
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "under_intent": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 75.02453385672227,
+     "intent": 24.97546614327772
+    },
+    "under_intent": {
+     "emotion": 8.832188420019627,
+     "intent": 91.16781157998037
+    },
+    "switch": {
+     "emotion": 66.19234543670265,
+     "intent": 66.19234543670265
+    },
+    "ie": 166.19234543670262
+   },
+   "shuffled": [
+    {
+     "under_emotion": {
+      "emotion": 32.28655544651619,
+      "intent": 67.71344455348381
+     },
+     "under_intent": {
+      "emotion": 31.256133464180568,
+      "intent": 68.74386653581944
+     },
+     "switch": {
+      "emotion": 1.0304219823356213,
+      "intent": 1.0304219823356249
+     },
+     "ie": 101.03042198233562
+    },
+    {
+     "under_emotion": {
+      "emotion": 32.23748773307164,
+      "intent": 67.76251226692837
+     },
+     "under_intent": {
+      "emotion": 30.863591756624142,
+      "intent": 69.13640824337585
+     },
+     "switch": {
+      "emotion": 1.3738959764474963,
+      "intent": 1.3738959764474856
+     },
+     "ie": 101.3738959764475
+    },
+    {
+     "under_emotion": {
+      "emotion": 31.992149165848872,
+      "intent": 68.00785083415113
+     },
+     "under_intent": {
+      "emotion": 30.029440628066734,
+      "intent": 69.97055937193328
+     },
+     "switch": {
+      "emotion": 1.962708537782138,
+      "intent": 1.9627085377821487
+     },
+     "ie": 101.96270853778215
+    }
+   ],
+   "other_text": [
+    {
+     "under_emotion": {
+      "emotion": 44.013738959764474,
+      "intent": 55.98626104023553
+     },
+     "under_intent": {
+      "emotion": 25.858684985279684,
+      "intent": 74.1413150147203
+     },
+     "switch": {
+      "emotion": 18.15505397448479,
+      "intent": 18.155053974484773
+     },
+     "ie": 118.15505397448479
+    },
+    {
+     "under_emotion": {
+      "emotion": 42.34543670264966,
+      "intent": 57.65456329735035
+     },
+     "under_intent": {
+      "emotion": 26.104023552502454,
+      "intent": 73.89597644749755
+     },
+     "switch": {
+      "emotion": 16.241413150147203,
+      "intent": 16.241413150147196
+     },
+     "ie": 116.2414131501472
+    },
+    {
+     "under_emotion": {
+      "emotion": 42.73797841020608,
+      "intent": 57.26202158979392
+     },
+     "under_intent": {
+      "emotion": 25.66241413150147,
+      "intent": 74.33758586849852
+     },
+     "switch": {
+      "emotion": 17.07556427870461,
+      "intent": 17.075564278704604
+     },
+     "ie": 117.0755642787046
+    }
+   ],
+   "positional": {
+    "under_emotion": {
+     "emotion": 43.817468105986265,
+     "intent": 56.18253189401374
+    },
+    "under_intent": {
+     "emotion": 22.374877330716387,
+     "intent": 77.62512266928361
+    },
+    "switch": {
+     "emotion": 21.442590775269878,
+     "intent": 21.44259077526987
+    },
+    "ie": 121.44259077526988
+   },
+   "interval": [
+    63.24828263002945,
+    69.13763493621197
+   ]
+  }
+ },
+ "qwen3-4b|gte-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "under_location": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.80209759253981
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 43.364735835627776,
+     "location": 68.29883236788052
+    },
+    "under_location": {
+     "topic": 37.102476480917666,
+     "location": 78.72355402903291
+    },
+    "switch": {
+     "topic": 6.26225935471011,
+     "location": 10.42472166115239
+    },
+    "nyt": 55.92389128010838
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -3.578803776922153,
+    5.197513549372664
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "under_intent": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 56.57507360157017,
+     "intent": 43.42492639842983
+    },
+    "under_intent": {
+     "emotion": 7.163886162904809,
+     "intent": 92.8361138370952
+    },
+    "switch": {
+     "emotion": 49.41118743866536,
+     "intent": 49.411187438665365
+    },
+    "ie": 149.41118743866537
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    46.81059862610402,
+    52.109911678115814
+   ]
+  }
+ },
+ "qwen3-4b|all-mpnet-base-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "under_location": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.70687539469155
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 46.9457088277821,
+     "location": 68.1748621212017
+    },
+    "under_location": {
+     "topic": 38.7838108550666,
+     "location": 79.67402948133358
+    },
+    "switch": {
+     "topic": 8.1618979727155,
+     "location": 11.499167360131878
+    },
+    "nyt": 59.08010613646949
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "under_location": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.61549631685255
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 52.8865758199373,
+     "location": 58.09507648233855
+    },
+    "under_location": {
+     "topic": 54.263567999641126,
+     "location": 58.28047778634659
+    },
+    "switch": {
+     "topic": -1.3769921797038265,
+     "location": 0.1854013040080389
+    },
+    "nyt": 55.4526688844047
+   },
+   "interval": [
+    -1.4119277538669466,
+    7.997348219445367
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "under_intent": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 50.0,
+     "intent": 50.0
+    },
+    "under_intent": {
+     "emotion": 10.353287536800785,
+     "intent": 89.64671246319922
+    },
+    "switch": {
+     "emotion": 39.646712463199215,
+     "intent": 39.64671246319922
+    },
+    "ie": 139.6467124631992
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "under_intent": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.00000000000001
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 21.246319921491658,
+     "intent": 78.75368007850834
+    },
+    "under_intent": {
+     "emotion": 14.720314033366044,
+     "intent": 85.27968596663396
+    },
+    "switch": {
+     "emotion": 6.5260058881256136,
+     "intent": 6.526005888125624
+    },
+    "ie": 106.52600588812562
+   },
+   "interval": [
+    37.24239450441611,
+    42.00196270853779
+   ]
+  }
+ },
+ "qwen3-4b|e5-large-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "under_location": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.27379069900862
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 59.0339501988512,
+     "location": 63.69674213815134
+    },
+    "under_location": {
+     "topic": 42.54648510630137,
+     "location": 82.68967643326823
+    },
+    "switch": {
+     "topic": 16.487465092549833,
+     "location": 18.99293429511689
+    },
+    "nyt": 68.88757162780533
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "under_location": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.7826558849076
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 57.708873279549444,
+     "location": 53.494575571071046
+    },
+    "under_location": {
+     "topic": 56.99097826335326,
+     "location": 53.499285747232705
+    },
+    "switch": {
+     "topic": 0.7178950161961808,
+     "location": 0.004710176161658808
+    },
+    "nyt": 55.52440627961774
+   },
+   "interval": [
+    3.931117666562168,
+    18.4934210818587
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "under_intent": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 74.73012757605495,
+     "intent": 25.269872423945046
+    },
+    "under_intent": {
+     "emotion": 48.037291462217866,
+     "intent": 51.96270853778214
+    },
+    "switch": {
+     "emotion": 26.69283611383709,
+     "intent": 26.692836113837096
+    },
+    "ie": 126.6928361138371
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "under_intent": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 59.1756624141315,
+     "intent": 40.8243375858685
+    },
+    "under_intent": {
+     "emotion": 55.64278704612365,
+     "intent": 44.35721295387635
+    },
+    "switch": {
+     "emotion": 3.5328753680078506,
+     "intent": 3.5328753680078506
+    },
+    "ie": 103.53287536800785
+   },
+   "interval": [
+    24.48478900883218,
+    29.097154072620214
+   ]
+  }
+ },
+ "qwen3-4b|all-MiniLM-L6-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 56.64872653118432,
+     "location": 57.7430713824022
+    },
+    "under_location": {
+     "topic": 56.64872653118432,
+     "location": 57.7430713824022
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.1906643561068
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 39.921129457952475,
+     "location": 62.2351666616137
+    },
+    "under_location": {
+     "topic": 32.46798761425288,
+     "location": 72.2034821757845
+    },
+    "switch": {
+     "topic": 7.453141843699598,
+     "location": 9.968315514170804
+    },
+    "nyt": 51.41501972188693
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 57.442841153579195,
+     "location": 57.87605035663188
+    },
+    "under_location": {
+     "topic": 57.442841153579195,
+     "location": 57.87605035663188
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.65863205352347
+   },
+   "interval": [
+    -7.74879450874279,
+    1.683274211589997
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "under_intent": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 74.5829244357213,
+     "intent": 25.417075564278708
+    },
+    "under_intent": {
+     "emotion": 9.911678115799804,
+     "intent": 90.0883218842002
+    },
+    "switch": {
+     "emotion": 64.6712463199215,
+     "intent": 64.6712463199215
+    },
+    "ie": 164.6712463199215
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "under_intent": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "interval": [
+    62.119725220804725,
+    67.27183513248282
+   ]
+  }
+ },
+ "qwen3-4b|bge-small-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 61.124950388190314,
+     "location": 50.08588054358953
+    },
+    "under_location": {
+     "topic": 61.124950388190314,
+     "location": 50.08588054358953
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.05753239495576
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 42.59230722867032,
+     "location": 64.47152870920678
+    },
+    "under_location": {
+     "topic": 32.559864768535306,
+     "location": 74.16398301358466
+    },
+    "switch": {
+     "topic": 10.032442460135016,
+     "location": 9.692454304377875
+    },
+    "nyt": 54.1095497850313
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -5.115825058610029,
+    4.608922387814528
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "under_intent": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 78.70461236506378,
+     "intent": 21.295387634936212
+    },
+    "under_intent": {
+     "emotion": 10.304219823356231,
+     "intent": 89.69578017664377
+    },
+    "switch": {
+     "emotion": 68.40039254170755,
+     "intent": 68.40039254170756
+    },
+    "ie": 168.40039254170756
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    65.55323846908732,
+    71.34568204121689
+   ]
+  }
+ },
+ "qwen3-4b|bge-base-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 62.00665943008674,
+     "location": 49.547771777784014
+    },
+    "under_location": {
+     "topic": 62.00665943008674,
+     "location": 49.547771777784014
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.08148402266981
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 56.09691114053692,
+     "location": 58.90988363954654
+    },
+    "under_location": {
+     "topic": 38.700077230196364,
+     "location": 79.71731880514598
+    },
+    "switch": {
+     "topic": 17.396833910340554,
+     "location": 20.807435165599436
+    },
+    "nyt": 65.85311938417169
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    1.6694403948804135,
+    13.481133267394144
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "under_intent": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 72.76741903827282,
+     "intent": 27.23258096172718
+    },
+    "under_intent": {
+     "emotion": 9.960745829244356,
+     "intent": 90.03925417075564
+    },
+    "switch": {
+     "emotion": 62.80667320902846,
+     "intent": 62.80667320902846
+    },
+    "ie": 162.80667320902847
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    60.05642787046123,
+    65.7016683022571
+   ]
+  }
+ },
+ "qwen3-4b|qwen3-emb-4b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 46.958495702458855,
+     "location": 73.34109602535084
+    },
+    "under_location": {
+     "topic": 46.958495702458855,
+     "location": 73.34109602535084
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.256845065340045
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 41.9313869169639,
+     "location": 70.68629539366782
+    },
+    "under_location": {
+     "topic": 36.01549441927743,
+     "location": 77.62787639041781
+    },
+    "switch": {
+     "topic": 5.915892497686471,
+     "location": 6.941580996749991
+    },
+    "nyt": 54.45072895896074
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -8.063008395121141,
+    1.7156444221914182
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "under_intent": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 99.99999999999999
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 53.53287536800785,
+     "intent": 46.46712463199215
+    },
+    "under_intent": {
+     "emotion": 6.673209028459273,
+     "intent": 93.32679097154073
+    },
+    "switch": {
+     "emotion": 46.859666339548575,
+     "intent": 46.85966633954858
+    },
+    "ie": 146.8596663395486
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    44.35721295387637,
+    49.3621197252208
+   ]
+  }
+ },
+ "qwen3-4b|qwen3-emb-8b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 58.33974611004166,
+     "location": 58.82254578721666
+    },
+    "under_location": {
+     "topic": 58.33974611004166,
+     "location": 58.82254578721666
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 58.58015119322763
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 49.4555187244803,
+     "location": 64.33012055491002
+    },
+    "under_location": {
+     "topic": 38.028563650315036,
+     "location": 81.62807906432332
+    },
+    "switch": {
+     "topic": 11.426955074165264,
+     "location": 17.29795850941329
+    },
+    "nyt": 61.59365566212765
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -2.7335453695213854,
+    9.29168273636189
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "under_intent": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 55.20117762512267,
+     "intent": 44.798822374877325
+    },
+    "under_intent": {
+     "emotion": 5.642787046123651,
+     "intent": 94.35721295387634
+    },
+    "switch": {
+     "emotion": 49.55839057899902,
+     "intent": 49.55839057899902
+    },
+    "ie": 149.55839057899902
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    47.05593719332678,
+    52.060843964671236
+   ]
+  }
+ },
+ "qwen3-8b|qwen3-emb-0.6b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "under_location": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.909203927156234
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 56.08931069740708,
+     "location": 47.55312040968512
+    },
+    "under_location": {
+     "topic": 32.78267847303534,
+     "location": 73.83738285151342
+    },
+    "switch": {
+     "topic": 23.30663222437174,
+     "location": 26.284262441828304
+    },
+    "nyt": 63.751147584629166
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    4.068834885335264,
+    11.96902975865783
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "under_intent": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 55.053974484789,
+     "intent": 44.94602551521099
+    },
+    "under_intent": {
+     "emotion": 6.47693817468106,
+     "intent": 93.52306182531895
+    },
+    "switch": {
+     "emotion": 48.57703631010794,
+     "intent": 48.57703631010796
+    },
+    "ie": 148.57703631010796
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    46.02551521099119,
+    51.17762512266927
+   ]
+  }
+ },
+ "qwen3-8b|bge-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "under_location": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.67232491541534
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 59.08289082777354,
+     "location": 49.15038425160239
+    },
+    "under_location": {
+     "topic": 37.566163668291374,
+     "location": 81.03971151002153
+    },
+    "switch": {
+     "topic": 21.516727159482166,
+     "location": 31.889327258419144
+    },
+    "nyt": 68.3410149104149
+   },
+   "shuffled": [
+    {
+     "under_topic": {
+      "topic": 59.163594259377476,
+      "location": 54.58127839859166
+     },
+     "under_location": {
+      "topic": 57.81061198511851,
+      "location": 53.401310246141186
+     },
+     "switch": {
+      "topic": 1.352982274258963,
+      "location": -1.1799681524504706
+     },
+     "nyt": 56.13496437762042
+    },
+    {
+     "under_topic": {
+      "topic": 57.43736169388423,
+      "location": 54.722686568411675
+     },
+     "under_location": {
+      "topic": 58.056108414070174,
+      "location": 54.01565292083712
+     },
+     "switch": {
+      "topic": -0.6187467201859462,
+      "location": -0.7070336475745549
+     },
+     "nyt": 55.67398252335474
+    },
+    {
+     "under_topic": {
+      "topic": 62.003034777324594,
+      "location": 55.98825562814898
+     },
+     "under_location": {
+      "topic": 58.41377520601513,
+      "location": 54.66166536937129
+     },
+     "switch": {
+      "topic": 3.589259571309462,
+      "location": -1.326590258777685
+     },
+     "nyt": 58.10136458745347
+    }
+   ],
+   "other_text": [
+    {
+     "under_topic": {
+      "topic": 56.03335943103118,
+      "location": 55.49148423668632
+     },
+     "under_location": {
+      "topic": 54.64876706098105,
+      "location": 54.276302026878895
+     },
+     "switch": {
+      "topic": 1.3845923700501288,
+      "location": -1.2151822098074234
+     },
+     "nyt": 55.14083716397186
+    },
+    {
+     "under_topic": {
+      "topic": 56.34020187956148,
+      "location": 54.972308518917856
+     },
+     "under_location": {
+      "topic": 55.0541738725199,
+      "location": 53.35850848237411
+     },
+     "switch": {
+      "topic": 1.2860280070415797,
+      "location": -1.6138000365437435
+     },
+     "nyt": 54.80883284668002
+    },
+    {
+     "under_topic": {
+      "topic": 57.8023831189314,
+      "location": 50.53516534450194
+     },
+     "under_location": {
+      "topic": 54.72079786104727,
+      "location": 53.49968118695463
+     },
+     "switch": {
+      "topic": 3.081585257884136,
+      "location": 2.964515842452691
+     },
+     "nyt": 55.56786548329485
+    }
+   ],
+   "positional": {
+    "under_topic": {
+     "topic": 56.34830585377596,
+     "location": 61.627475992761745
+    },
+    "under_location": {
+     "topic": 53.75555682181751,
+     "location": 62.4419734969036
+    },
+    "switch": {
+     "topic": 2.592749031958455,
+     "location": 0.8144975041418547
+    },
+    "nyt": 59.23884411956556
+   },
+   "interval": [
+    6.8482958162205305,
+    16.378169528852695
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "under_intent": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 72.76741903827282,
+     "intent": 27.23258096172718
+    },
+    "under_intent": {
+     "emotion": 9.470068694798822,
+     "intent": 90.52993130520117
+    },
+    "switch": {
+     "emotion": 63.297350343473994,
+     "intent": 63.297350343473994
+    },
+    "ie": 163.297350343474
+   },
+   "shuffled": [
+    {
+     "under_emotion": {
+      "emotion": 31.50147203140334,
+      "intent": 68.49852796859666
+     },
+     "under_intent": {
+      "emotion": 31.108930323846906,
+      "intent": 68.8910696761531
+     },
+     "switch": {
+      "emotion": 0.3925417075564326,
+      "intent": 0.3925417075564326
+     },
+     "ie": 100.39254170755643
+    },
+    {
+     "under_emotion": {
+      "emotion": 31.256133464180568,
+      "intent": 68.74386653581944
+     },
+     "under_intent": {
+      "emotion": 32.482826300294406,
+      "intent": 67.5171736997056
+     },
+     "switch": {
+      "emotion": -1.2266928361138376,
+      "intent": -1.2266928361138412
+     },
+     "ie": 98.77330716388616
+    },
+    {
+     "under_emotion": {
+      "emotion": 32.13935230618253,
+      "intent": 67.86064769381747
+     },
+     "under_intent": {
+      "emotion": 30.66732090284593,
+      "intent": 69.33267909715407
+     },
+     "switch": {
+      "emotion": 1.4720314033366009,
+      "intent": 1.4720314033366009
+     },
+     "ie": 101.4720314033366
+    }
+   ],
+   "other_text": [
+    {
+     "under_emotion": {
+      "emotion": 42.688910696761525,
+      "intent": 57.311089303238475
+     },
+     "under_intent": {
+      "emotion": 25.956820412168792,
+      "intent": 74.0431795878312
+     },
+     "switch": {
+      "emotion": 16.732090284592733,
+      "intent": 16.73209028459273
+     },
+     "ie": 116.73209028459273
+    },
+    {
+     "under_emotion": {
+      "emotion": 39.54857703631011,
+      "intent": 60.45142296368989
+     },
+     "under_intent": {
+      "emotion": 25.36800785083415,
+      "intent": 74.63199214916585
+     },
+     "switch": {
+      "emotion": 14.180569185475957,
+      "intent": 14.18056918547596
+     },
+     "ie": 114.18056918547596
+    },
+    {
+     "under_emotion": {
+      "emotion": 40.0883218842002,
+      "intent": 59.9116781157998
+     },
+     "under_intent": {
+      "emotion": 25.024533856722275,
+      "intent": 74.97546614327773
+     },
+     "switch": {
+      "emotion": 15.063788027477923,
+      "intent": 15.063788027477926
+     },
+     "ie": 115.06378802747793
+    }
+   ],
+   "positional": {
+    "under_emotion": {
+     "emotion": 40.57899901864573,
+     "intent": 59.42100098135427
+    },
+    "under_intent": {
+     "emotion": 22.080471050049066,
+     "intent": 77.91952894995093
+    },
+    "switch": {
+     "emotion": 18.498527968596665,
+     "intent": 18.49852796859666
+    },
+    "ie": 118.49852796859666
+   },
+   "interval": [
+    60.40112855740922,
+    66.24141315014718
+   ]
+  }
+ },
+ "qwen3-8b|gte-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "under_location": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.80209759253981
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 59.60917004224251,
+     "location": 48.48073073286802
+    },
+    "under_location": {
+     "topic": 36.534683905503165,
+     "location": 78.8169946414436
+    },
+    "switch": {
+     "topic": 23.074486136739345,
+     "location": 30.33626390857558
+    },
+    "nyt": 67.88045665358358
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    5.595885436807036,
+    15.004251454496831
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "under_intent": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 54.3179587831207,
+     "intent": 45.68204121687929
+    },
+    "under_intent": {
+     "emotion": 7.262021589793916,
+     "intent": 92.73797841020608
+    },
+    "switch": {
+     "emotion": 47.055937193326784,
+     "intent": 47.05593719332679
+    },
+    "ie": 147.05593719332677
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    44.40628066732092,
+    49.70559371933268
+   ]
+  }
+ },
+ "qwen3-8b|all-mpnet-base-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "under_location": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.70687539469155
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 54.92860555650736,
+     "location": 53.20248560019583
+    },
+    "under_location": {
+     "topic": 39.1719580849037,
+     "location": 81.96702163376723
+    },
+    "switch": {
+     "topic": 15.756647471603657,
+     "location": 28.764536033571403
+    },
+    "nyt": 65.77761893989664
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "under_location": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.61549631685255
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 53.74532927942981,
+     "location": 58.80757013297584
+    },
+    "under_location": {
+     "topic": 54.28770012744446,
+     "location": 58.05907704596754
+    },
+    "switch": {
+     "topic": -0.5423708480146487,
+     "location": -0.7484930870082991
+    },
+    "nyt": 55.818984528851686
+   },
+   "interval": [
+    5.175432946828296,
+    14.710629561959578
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "under_intent": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 49.21491658488714,
+     "intent": 50.78508341511285
+    },
+    "under_intent": {
+     "emotion": 10.99116781157998,
+     "intent": 89.00883218842002
+    },
+    "switch": {
+     "emotion": 38.223748773307165,
+     "intent": 38.223748773307165
+    },
+    "ie": 138.22374877330716
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "under_intent": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.00000000000001
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 20.019627085377824,
+     "intent": 79.98037291462218
+    },
+    "under_intent": {
+     "emotion": 14.867517173699706,
+     "intent": 85.13248282630029
+    },
+    "switch": {
+     "emotion": 5.152109911678117,
+     "intent": 5.15210991167811
+    },
+    "ie": 105.15210991167811
+   },
+   "interval": [
+    35.8684985279686,
+    40.628066732090275
+   ]
+  }
+ },
+ "qwen3-8b|e5-large-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "under_location": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.27379069900862
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 60.57602988634032,
+     "location": 50.497512032063874
+    },
+    "under_location": {
+     "topic": 42.85050840713486,
+     "location": 80.94756928196458
+    },
+    "switch": {
+     "topic": 17.72552147920546,
+     "location": 30.450057249900702
+    },
+    "nyt": 69.29561436866578
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "under_location": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.7826558849076
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 57.47620761263897,
+     "location": 52.93383391112998
+    },
+    "under_location": {
+     "topic": 57.58872066494655,
+     "location": 53.6664564059824
+    },
+    "switch": {
+     "topic": -0.1125130523075768,
+     "location": 0.7326224948524214
+    },
+    "nyt": 55.50603663198736
+   },
+   "interval": [
+    7.821203980275663,
+    20.883036214644964
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "under_intent": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 73.89597644749755,
+     "intent": 26.104023552502454
+    },
+    "under_intent": {
+     "emotion": 47.98822374877331,
+     "intent": 52.01177625122669
+    },
+    "switch": {
+     "emotion": 25.907752698724238,
+     "intent": 25.907752698724238
+    },
+    "ie": 125.90775269872424
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "under_intent": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 58.39057899901865,
+     "intent": 41.60942100098136
+    },
+    "under_intent": {
+     "emotion": 55.39744847890088,
+     "intent": 44.602551521099116
+    },
+    "switch": {
+     "emotion": 2.9931305201177736,
+     "intent": 2.9931305201177594
+    },
+    "ie": 102.99313052011777
+   },
+   "interval": [
+    23.6506378802748,
+    28.263002944062798
+   ]
+  }
+ },
+ "qwen3-8b|all-MiniLM-L6-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 56.64872653118432,
+     "location": 57.7430713824022
+    },
+    "under_location": {
+     "topic": 56.64872653118432,
+     "location": 57.7430713824022
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.1906643561068
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 53.139862122574414,
+     "location": 40.556772002562695
+    },
+    "under_location": {
+     "topic": 32.488394449718726,
+     "location": 73.32389049898185
+    },
+    "switch": {
+     "topic": 20.651467672855688,
+     "location": 32.76711849641916
+    },
+    "nyt": 61.621157851228716
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 57.442841153579195,
+     "location": 57.87605035663188
+    },
+    "under_location": {
+     "topic": 57.442841153579195,
+     "location": 57.87605035663188
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.65863205352347
+   },
+   "interval": [
+    1.1666272183556232,
+    10.72365916808387
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "under_intent": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 72.76741903827282,
+     "intent": 27.23258096172718
+    },
+    "under_intent": {
+     "emotion": 10.745829244357214,
+     "intent": 89.25417075564279
+    },
+    "switch": {
+     "emotion": 62.02158979391561,
+     "intent": 62.02158979391561
+    },
+    "ie": 162.0215897939156
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "under_intent": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "interval": [
+    59.322865554465174,
+    64.67124631992147
+   ]
+  }
+ },
+ "qwen3-8b|bge-small-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 61.124950388190314,
+     "location": 50.08588054358953
+    },
+    "under_location": {
+     "topic": 61.124950388190314,
+     "location": 50.08588054358953
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.05753239495576
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 54.617661016720206,
+     "location": 44.10175027275696
+    },
+    "under_location": {
+     "topic": 30.891223523038047,
+     "location": 71.3009263725838
+    },
+    "switch": {
+     "topic": 23.72643749368216,
+     "location": 27.199176099826843
+    },
+    "nyt": 61.854090130870965
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    1.6543361136038137,
+    11.397019262484523
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "under_intent": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 77.03631010794896,
+     "intent": 22.963689892051033
+    },
+    "under_intent": {
+     "emotion": 11.187438665358194,
+     "intent": 88.8125613346418
+    },
+    "switch": {
+     "emotion": 65.84887144259076,
+     "intent": 65.84887144259076
+    },
+    "ie": 165.84887144259076
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    63.00294406280666,
+    68.84200196270854
+   ]
+  }
+ },
+ "qwen3-8b|bge-base-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 62.00665943008674,
+     "location": 49.547771777784014
+    },
+    "under_location": {
+     "topic": 62.00665943008674,
+     "location": 49.547771777784014
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.08148402266981
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 58.87206038205447,
+     "location": 46.21581703923282
+    },
+    "under_location": {
+     "topic": 37.48852221604914,
+     "location": 80.52034259345125
+    },
+    "switch": {
+     "topic": 21.38353816600533,
+     "location": 34.30452555421843
+    },
+    "nyt": 68.0151625184962
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    7.136269420171156,
+    17.266567355803147
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "under_intent": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 70.60843964671247,
+     "intent": 29.391560353287538
+    },
+    "under_intent": {
+     "emotion": 10.598626104023552,
+     "intent": 89.40137389597645
+    },
+    "switch": {
+     "emotion": 60.00981354268892,
+     "intent": 60.00981354268891
+    },
+    "ie": 160.0098135426889
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    57.16265947006868,
+    62.904808635917554
+   ]
+  }
+ },
+ "qwen3-8b|qwen3-emb-4b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 46.958495702458855,
+     "location": 73.34109602535084
+    },
+    "under_location": {
+     "topic": 46.958495702458855,
+     "location": 73.34109602535084
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.256845065340045
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 51.93838362812721,
+     "location": 57.25576690053478
+    },
+    "under_location": {
+     "topic": 34.45048534642293,
+     "location": 76.5899098416094
+    },
+    "switch": {
+     "topic": 17.487898281704283,
+     "location": 19.334142941074617
+    },
+    "nyt": 61.900084595815294
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -1.4412811339684333,
+    9.80324250389466
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "under_intent": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 99.99999999999999
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 50.49067713444554,
+     "intent": 49.509322865554466
+    },
+    "under_intent": {
+     "emotion": 6.62414131501472,
+     "intent": 93.37585868498527
+    },
+    "switch": {
+     "emotion": 43.86653581943082,
+     "intent": 43.86653581943081
+    },
+    "ie": 143.86653581943082
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    41.41192345436701,
+    46.51619234543668
+   ]
+  }
+ },
+ "qwen3-8b|qwen3-emb-8b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 58.33974611004166,
+     "location": 58.82254578721666
+    },
+    "under_location": {
+     "topic": 58.33974611004166,
+     "location": 58.82254578721666
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 58.58015119322763
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 60.01158909659098,
+     "location": 52.29149371943149
+    },
+    "under_location": {
+     "topic": 36.694076353559765,
+     "location": 79.7297335338123
+    },
+    "switch": {
+     "topic": 23.317512743031216,
+     "location": 27.4382398143808
+    },
+    "nyt": 68.47950080209982
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    3.925582552026157,
+    14.05304670953298
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "under_intent": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 51.079489695780175,
+     "intent": 48.920510304219825
+    },
+    "under_intent": {
+     "emotion": 5.937193326790972,
+     "intent": 94.06280667320902
+    },
+    "switch": {
+     "emotion": 45.14229636898921,
+     "intent": 45.1422963689892
+    },
+    "ie": 145.1422963689892
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    42.63984298331698,
+    47.791952894995084
+   ]
+  }
+ },
+ "llama-3.1-8b-instruct|qwen3-emb-0.6b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 53.80593464760119,
+     "location": 60.910524166312804
+    },
+    "under_location": {
+     "topic": 53.80593464760119,
+     "location": 60.910524166312804
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.138229622856535
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 51.857391723729066,
+     "location": 54.24212103448207
+    },
+    "under_location": {
+     "topic": 33.35648087165847,
+     "location": 76.40655533834709
+    },
+    "switch": {
+     "topic": 18.500910852070596,
+     "location": 22.164434303865022
+    },
+    "nyt": 61.78267176657117
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    0.4757713757805577,
+    10.410687572488754
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "under_intent": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 37.09519136408244,
+     "intent": 62.90480863591756
+    },
+    "under_intent": {
+     "emotion": 5.937193326790972,
+     "intent": 94.06280667320902
+    },
+    "switch": {
+     "emotion": 31.157998037291467,
+     "intent": 31.157998037291463
+    },
+    "ie": 131.15799803729146
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    28.900883218842,
+    33.612610402355244
+   ]
+  }
+ },
+ "llama-3.1-8b-instruct|bge-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 62.23449628728781,
+     "location": 52.26552382264064
+    },
+    "under_location": {
+     "topic": 62.23449628728781,
+     "location": 52.26552382264064
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.816034532431075
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 54.05014001411577,
+     "location": 57.44894596124114
+    },
+    "under_location": {
+     "topic": 38.56172877540275,
+     "location": 83.34730438936514
+    },
+    "switch": {
+     "topic": 15.48841123871302,
+     "location": 25.898358428124
+    },
+    "nyt": 65.575214904032
+   },
+   "shuffled": [
+    {
+     "under_topic": {
+      "topic": 56.07447368576207,
+      "location": 60.70396020202858
+     },
+     "under_location": {
+      "topic": 57.828440530766365,
+      "location": 55.401281659561555
+     },
+     "switch": {
+      "topic": -1.7539668450042925,
+      "location": -5.302678542467028
+     },
+     "nyt": 55.73584499921543
+    },
+    {
+     "under_topic": {
+      "topic": 56.73502634766929,
+      "location": 55.94505651656036
+     },
+     "under_location": {
+      "topic": 57.18340567614485,
+      "location": 57.13100383923069
+     },
+     "switch": {
+      "topic": -0.4483793284755606,
+      "location": 1.185947322670323
+     },
+     "nyt": 56.93232657253014
+    },
+    {
+     "under_topic": {
+      "topic": 58.906907086976275,
+      "location": 55.755158542843944
+     },
+     "under_location": {
+      "topic": 58.31627795152527,
+      "location": 57.53690417928947
+     },
+     "switch": {
+      "topic": 0.5906291354510032,
+      "location": 1.7817456364455282
+     },
+     "nyt": 58.21384634658476
+    }
+   ],
+   "other_text": [
+    {
+     "under_topic": {
+      "topic": 54.18086876213783,
+      "location": 59.23788718669487
+     },
+     "under_location": {
+      "topic": 54.715786403988666,
+      "location": 54.89720427700928
+     },
+     "switch": {
+      "topic": -0.5349176418508392,
+      "location": -4.34068290968559
+     },
+     "nyt": 54.53668436636511
+    },
+    {
+     "under_topic": {
+      "topic": 57.73594364324639,
+      "location": 54.21911327407225
+     },
+     "under_location": {
+      "topic": 55.76934091074908,
+      "location": 54.243667673582884
+     },
+     "switch": {
+      "topic": 1.9666027324973072,
+      "location": 0.02455439951063454
+     },
+     "nyt": 55.93534935419665
+    },
+    {
+     "under_topic": {
+      "topic": 56.95119625935048,
+      "location": 55.26537318539819
+     },
+     "under_location": {
+      "topic": 56.87585741596061,
+      "location": 54.2672373095458
+     },
+     "switch": {
+      "topic": 0.07533884338987207,
+      "location": -0.998135875852391
+     },
+     "nyt": 55.5768317043664
+    }
+   ],
+   "positional": {
+    "under_topic": {
+     "topic": 55.18408281827008,
+     "location": 61.234172053861194
+    },
+    "under_location": {
+     "topic": 56.72145405732281,
+     "location": 59.10811963033837
+    },
+    "switch": {
+     "topic": -1.5373712390527317,
+     "location": -2.1260524235228218
+    },
+    "nyt": 57.07873851413356
+   },
+   "interval": [
+    2.1124538447476917,
+    12.707498734448421
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "under_intent": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 53.68007850834151,
+     "intent": 46.31992149165849
+    },
+    "under_intent": {
+     "emotion": 7.556427870461237,
+     "intent": 92.44357212953877
+    },
+    "switch": {
+     "emotion": 46.123650637880274,
+     "intent": 46.123650637880274
+    },
+    "ie": 146.12365063788027
+   },
+   "shuffled": [
+    {
+     "under_emotion": {
+      "emotion": 29.29342492639843,
+      "intent": 70.70657507360157
+     },
+     "under_intent": {
+      "emotion": 31.354268891069676,
+      "intent": 68.64573110893032
+     },
+     "switch": {
+      "emotion": -2.060843964671246,
+      "intent": -2.0608439646712498
+     },
+     "ie": 97.93915603532875
+    },
+    {
+     "under_emotion": {
+      "emotion": 29.88223748773307,
+      "intent": 70.11776251226692
+     },
+     "under_intent": {
+      "emotion": 31.059862610402355,
+      "intent": 68.94013738959764
+     },
+     "switch": {
+      "emotion": -1.1776251226692835,
+      "intent": -1.1776251226692835
+     },
+     "ie": 98.8223748773307
+    },
+    {
+     "under_emotion": {
+      "emotion": 29.538763493621197,
+      "intent": 70.4612365063788
+     },
+     "under_intent": {
+      "emotion": 28.949950932286555,
+      "intent": 71.05004906771345
+     },
+     "switch": {
+      "emotion": 0.5888125613346418,
+      "intent": 0.5888125613346489
+     },
+     "ie": 100.58881256133463
+    }
+   ],
+   "other_text": [
+    {
+     "under_emotion": {
+      "emotion": 35.67222767419038,
+      "intent": 64.32777232580962
+     },
+     "under_intent": {
+      "emotion": 26.987242394504417,
+      "intent": 73.01275760549558
+     },
+     "switch": {
+      "emotion": 8.684985279685964,
+      "intent": 8.68498527968596
+     },
+     "ie": 108.68498527968596
+    },
+    {
+     "under_emotion": {
+      "emotion": 32.92443572129539,
+      "intent": 67.07556427870462
+     },
+     "under_intent": {
+      "emotion": 25.66241413150147,
+      "intent": 74.33758586849852
+     },
+     "switch": {
+      "emotion": 7.2620215897939175,
+      "intent": 7.262021589793903
+     },
+     "ie": 107.2620215897939
+    },
+    {
+     "under_emotion": {
+      "emotion": 33.80765456329735,
+      "intent": 66.19234543670265
+     },
+     "under_intent": {
+      "emotion": 26.44749754661433,
+      "intent": 73.55250245338567
+     },
+     "switch": {
+      "emotion": 7.360157016683019,
+      "intent": 7.360157016683019
+     },
+     "ie": 107.36015701668302
+    }
+   ],
+   "positional": {
+    "under_emotion": {
+     "emotion": 33.218842001962706,
+     "intent": 66.78115799803729
+    },
+    "under_intent": {
+     "emotion": 23.061825318940137,
+     "intent": 76.93817468105986
+    },
+    "switch": {
+     "emotion": 10.157016683022569,
+     "intent": 10.157016683022576
+    },
+    "ie": 110.15701668302256
+   },
+   "interval": [
+    43.37463199214917,
+    48.96957801766438
+   ]
+  }
+ },
+ "llama-3.1-8b-instruct|gte-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.34185947535738,
+     "location": 55.329169188362116
+    },
+    "under_location": {
+     "topic": 60.34185947535738,
+     "location": 55.329169188362116
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.726899995499686
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 52.54899356229309,
+     "location": 58.38375492819438
+    },
+    "under_location": {
+     "topic": 37.945075774639214,
+     "location": 81.22522753104519
+    },
+    "switch": {
+     "topic": 14.603917787653877,
+     "location": 22.841472602850814
+    },
+    "nyt": 63.81354978123409
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    0.9520557580590497,
+    11.842820587837878
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "under_intent": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 38.91069676153091,
+     "intent": 61.089303238469085
+    },
+    "under_intent": {
+     "emotion": 6.869479882237488,
+     "intent": 93.13052011776252
+    },
+    "switch": {
+     "emotion": 32.04121687929342,
+     "intent": 32.04121687929343
+    },
+    "ie": 132.04121687929342
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    29.635672227674178,
+    34.49460255152111
+   ]
+  }
+ },
+ "llama-3.1-8b-instruct|all-mpnet-base-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 55.9444956289158,
+     "location": 56.58136922695432
+    },
+    "under_location": {
+     "topic": 55.9444956289158,
+     "location": 56.58136922695432
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.26113013966596
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 52.68862767127882,
+     "location": 61.60933831800527
+    },
+    "under_location": {
+     "topic": 40.19816539831453,
+     "location": 84.470721380068
+    },
+    "switch": {
+     "topic": 12.490462272964294,
+     "location": 22.86138306206273
+    },
+    "nyt": 64.89745567719409
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 56.62040751418218,
+     "location": 56.081665646730116
+    },
+    "under_location": {
+     "topic": 56.62040751418218,
+     "location": 56.081665646730116
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.34974892485095
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 52.47446801146888,
+     "location": 59.26246279256324
+    },
+    "under_location": {
+     "topic": 53.16334450333812,
+     "location": 58.48301536924163
+    },
+    "switch": {
+     "topic": -0.6888764918692374,
+     "location": -0.7794474233216135
+    },
+    "nyt": 55.31605486490989
+   },
+   "interval": [
+    3.2656619962720024,
+    13.25505110751288
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "under_intent": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 39.842983316977424,
+     "intent": 60.15701668302257
+    },
+    "under_intent": {
+     "emotion": 8.930323846908735,
+     "intent": 91.06967615309127
+    },
+    "switch": {
+     "emotion": 30.91265947006869,
+     "intent": 30.912659470068697
+    },
+    "ie": 130.9126594700687
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "under_intent": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.00000000000001
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 17.517173699705594,
+     "intent": 82.4828263002944
+    },
+    "under_intent": {
+     "emotion": 15.161923454367027,
+     "intent": 84.83807654563297
+    },
+    "switch": {
+     "emotion": 2.355250245338567,
+     "intent": 2.355250245338567
+    },
+    "ie": 102.35525024533857
+   },
+   "interval": [
+    28.655544651619238,
+    33.21884200196269
+   ]
+  }
+ },
+ "llama-3.1-8b-instruct|e5-large-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 59.58413206029396,
+     "location": 50.64874677321101
+    },
+    "under_location": {
+     "topic": 59.58413206029396,
+     "location": 50.64874677321101
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.75429197407016
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 55.813236001755165,
+     "location": 62.67007974316615
+    },
+    "under_location": {
+     "topic": 44.4904445567542,
+     "location": 84.2277213627326
+    },
+    "switch": {
+     "topic": 11.322791445000966,
+     "location": 21.557641619566446
+    },
+    "nyt": 67.13781137669955
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 61.14045649842714,
+     "location": 49.221551441967826
+    },
+    "under_location": {
+     "topic": 61.14045649842714,
+     "location": 49.221551441967826
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.53739345374743
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 59.772672508166515,
+     "location": 50.300120086628944
+    },
+    "under_location": {
+     "topic": 59.61652782413884,
+     "location": 49.64003921187997
+    },
+    "switch": {
+     "topic": 0.156144684027673,
+     "location": -0.6600808747489708
+    },
+    "nyt": 54.23716788354666
+   },
+   "interval": [
+    6.108566292073693,
+    19.275700890494768
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "under_intent": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 65.99607458292444,
+     "intent": 34.003925417075564
+    },
+    "under_intent": {
+     "emotion": 44.11187438665358,
+     "intent": 55.88812561334642
+    },
+    "switch": {
+     "emotion": 21.884200196270854,
+     "intent": 21.884200196270854
+    },
+    "ie": 121.88420019627085
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "under_intent": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 57.605495583905785,
+     "intent": 42.39450441609421
+    },
+    "under_intent": {
+     "emotion": 55.59371933267909,
+     "intent": 44.4062806673209
+    },
+    "switch": {
+     "emotion": 2.011776251226692,
+     "intent": 2.011776251226692
+    },
+    "ie": 102.01177625122668
+   },
+   "interval": [
+    19.822129538763484,
+    23.99533856722278
+   ]
+  }
+ },
+ "llama-3.1-8b-instruct|all-MiniLM-L6-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 54.19485101767989,
+     "location": 57.07861209269653
+    },
+    "under_location": {
+     "topic": 54.19485101767989,
+     "location": 57.07861209269653
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.59936380452905
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 51.83629813998862,
+     "location": 54.01839468402157
+    },
+    "under_location": {
+     "topic": 35.237803681243854,
+     "location": 77.77844634306227
+    },
+    "switch": {
+     "topic": 16.598494458744767,
+     "location": 23.7600516590407
+    },
+    "nyt": 62.21123606813407
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 54.84848073615207,
+     "location": 56.31433625983284
+    },
+    "under_location": {
+     "topic": 54.84848073615207,
+     "location": 56.31433625983284
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.571743699161715
+   },
+   "interval": [
+    -0.9699114225674147,
+    10.143684176197297
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "under_intent": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 52.99313052011776,
+     "intent": 47.00686947988223
+    },
+    "under_intent": {
+     "emotion": 8.341511285574093,
+     "intent": 91.65848871442591
+    },
+    "switch": {
+     "emotion": 44.651619234543666,
+     "intent": 44.65161923454368
+    },
+    "ie": 144.65161923454366
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "under_intent": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "interval": [
+    42.001962708537775,
+    47.350343473994116
+   ]
+  }
+ },
+ "llama-3.1-8b-instruct|bge-small-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 57.375405194666726,
+     "location": 49.73667636841312
+    },
+    "under_location": {
+     "topic": 57.375405194666726,
+     "location": 49.73667636841312
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 53.283661712175835
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 52.45521881382522,
+     "location": 52.00623920519474
+    },
+    "under_location": {
+     "topic": 32.50455027346675,
+     "location": 74.0786931461096
+    },
+    "switch": {
+     "topic": 19.95066854035847,
+     "location": 22.072453940914862
+    },
+    "nyt": 61.41933017325936
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    0.617315654073488,
+    11.121953754471837
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "under_intent": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 56.133464180569185,
+     "intent": 43.866535819430815
+    },
+    "under_intent": {
+     "emotion": 8.096172718351324,
+     "intent": 91.90382728164867
+    },
+    "switch": {
+     "emotion": 48.03729146221786,
+     "intent": 48.03729146221786
+    },
+    "ie": 148.03729146221787
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    45.28949950932285,
+    50.98135426889107
+   ]
+  }
+ },
+ "llama-3.1-8b-instruct|bge-base-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.182468514321165,
+     "location": 51.38158114601288
+    },
+    "under_location": {
+     "topic": 60.182468514321165,
+     "location": 51.38158114601288
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.434889624801414
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 55.62087351456157,
+     "location": 52.01581376398465
+    },
+    "under_location": {
+     "topic": 37.62895230112298,
+     "location": 77.87433515334273
+    },
+    "switch": {
+     "topic": 17.991921213438594,
+     "location": 25.858521389358074
+    },
+    "nyt": 64.89279411274624
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    5.48417171300811,
+    16.14225235898463
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "under_intent": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 52.94406280667321,
+     "intent": 47.05593719332679
+    },
+    "under_intent": {
+     "emotion": 8.292443572129539,
+     "intent": 91.70755642787046
+    },
+    "switch": {
+     "emotion": 44.65161923454367,
+     "intent": 44.651619234543666
+    },
+    "ie": 144.65161923454366
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    41.95289499509324,
+    47.54661432777233
+   ]
+  }
+ },
+ "llama-3.1-8b-instruct|qwen3-emb-4b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 49.469447177657614,
+     "location": 70.44786745869641
+    },
+    "under_location": {
+     "topic": 49.469447177657614,
+     "location": 70.44786745869641
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 58.123667438113735
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 46.55841575119874,
+     "location": 67.76475674640088
+    },
+    "under_location": {
+     "topic": 36.204576326362066,
+     "location": 80.18354481378933
+    },
+    "switch": {
+     "topic": 10.353839424836671,
+     "location": 12.418788067388448
+    },
+    "nyt": 58.910542320379875
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -4.1478556688815456,
+    7.696117171022218
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "under_intent": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 99.99999999999999
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 39.106967615309124,
+     "intent": 60.89303238469087
+    },
+    "under_intent": {
+     "emotion": 5.740922473012758,
+     "intent": 94.25907752698724
+    },
+    "switch": {
+     "emotion": 33.366045142296365,
+     "intent": 33.36604514229637
+    },
+    "ie": 133.36604514229637
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    30.961727183513254,
+    35.86849852796858
+   ]
+  }
+ },
+ "llama-3.1-8b-instruct|qwen3-emb-8b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 58.15518921608967,
+     "location": 58.14790102484453
+    },
+    "under_location": {
+     "topic": 58.15518921608967,
+     "location": 58.14790102484453
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 58.15154489160802
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 50.979901683071716,
+     "location": 60.69079391141258
+    },
+    "under_location": {
+     "topic": 38.583381369449974,
+     "location": 81.75064430837345
+    },
+    "switch": {
+     "topic": 12.396520313621743,
+     "location": 21.059850396960876
+    },
+    "nyt": 62.79850321124816
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    0.8753742019073252,
+    12.315589141789658
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "under_intent": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 37.487733071638864,
+     "intent": 62.512266928361136
+    },
+    "under_intent": {
+     "emotion": 4.808635917566241,
+     "intent": 95.19136408243376
+    },
+    "switch": {
+     "emotion": 32.67909715407262,
+     "intent": 32.67909715407263
+    },
+    "ie": 132.67909715407262
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    30.371687929342492,
+    34.986506378802744
+   ]
+  }
+ },
+ "olmo-3-7b-instruct|qwen3-emb-0.6b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 53.361299280174165,
+     "location": 60.78140594692416
+    },
+    "under_location": {
+     "topic": 53.361299280174165,
+     "location": 60.78140594692416
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.830172141481036
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 50.73588986776352,
+     "location": 53.91787154204084
+    },
+    "under_location": {
+     "topic": 35.04758346167809,
+     "location": 76.94314551855548
+    },
+    "switch": {
+     "topic": 15.688306406085431,
+     "location": 23.02527397651464
+    },
+    "nyt": 61.149881736911276
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    1.732235539697709,
+    10.112059398964005
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "under_intent": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 31.40333660451423,
+     "intent": 68.59666339548576
+    },
+    "under_intent": {
+     "emotion": 7.409224730127575,
+     "intent": 92.59077526987242
+    },
+    "switch": {
+     "emotion": 23.994111874386654,
+     "intent": 23.99411187438666
+    },
+    "ie": 123.99411187438665
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    21.63886162904809,
+    26.154317958783132
+   ]
+  }
+ },
+ "olmo-3-7b-instruct|bge-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 62.193797110412085,
+     "location": 52.476380434936175
+    },
+    "under_location": {
+     "topic": 62.193797110412085,
+     "location": 52.476380434936175
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.92335056410058
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 55.79666494275358,
+     "location": 55.231930921574815
+    },
+    "under_location": {
+     "topic": 39.1678400937766,
+     "location": 82.13875874642008
+    },
+    "switch": {
+     "topic": 16.628824848976983,
+     "location": 26.906827824845266
+    },
+    "nyt": 66.45238297715343
+   },
+   "shuffled": [
+    {
+     "under_topic": {
+      "topic": 57.499931721776356,
+      "location": 54.57738863072432
+     },
+     "under_location": {
+      "topic": 55.81481140782838,
+      "location": 54.72039624570259
+     },
+     "switch": {
+      "topic": 1.6851203139479765,
+      "location": 0.14300761497826642
+     },
+     "nyt": 56.07574144321214
+    },
+    {
+     "under_topic": {
+      "topic": 56.901285624934516,
+      "location": 52.12639621774955
+     },
+     "under_location": {
+      "topic": 55.96706830797199,
+      "location": 55.7845399148792
+     },
+     "switch": {
+      "topic": 0.9342173169625241,
+      "location": 3.6581436971296455
+     },
+     "nyt": 56.33737914982807
+    },
+    {
+     "under_topic": {
+      "topic": 55.83690911725754,
+      "location": 56.106059097293304
+     },
+     "under_location": {
+      "topic": 58.47557840943427,
+      "location": 54.09684365121399
+     },
+     "switch": {
+      "topic": -2.638669292176729,
+      "location": -2.009215446079317
+     },
+     "nyt": 54.9531052363409
+    }
+   ],
+   "other_text": [
+    {
+     "under_topic": {
+      "topic": 56.27125303907848,
+      "location": 55.22600121393831
+     },
+     "under_location": {
+      "topic": 57.37081998343327,
+      "location": 55.87339758095153
+     },
+     "switch": {
+      "topic": -1.099566944354791,
+      "location": 0.6473963670132221
+     },
+     "nyt": 56.07161957382149
+    },
+    {
+     "under_topic": {
+      "topic": 54.36508098653084,
+      "location": 57.743017810886485
+     },
+     "under_location": {
+      "topic": 52.41827661865586,
+      "location": 56.159555164108944
+     },
+     "switch": {
+      "topic": 1.9468043678749822,
+      "location": -1.5834626467775408
+     },
+     "nyt": 55.24775056441625
+    },
+    {
+     "under_topic": {
+      "topic": 57.55011808768137,
+      "location": 53.84889407561755
+     },
+     "under_location": {
+      "topic": 56.45917230758807,
+      "location": 53.862473036270295
+     },
+     "switch": {
+      "topic": 1.0909457800932998,
+      "location": 0.013578960652743888
+     },
+     "nyt": 55.64526688469931
+    }
+   ],
+   "positional": {
+    "under_topic": {
+     "topic": 59.47454364529883,
+     "location": 56.10969738241442
+    },
+    "under_location": {
+     "topic": 60.40835487355136,
+     "location": 56.75978189785024
+    },
+    "switch": {
+     "topic": -0.9338112282525302,
+     "location": 0.6500845154358217
+    },
+    "nyt": 58.08545986700163
+   },
+   "interval": [
+    4.251376905639088,
+    14.762131149276046
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "under_intent": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 55.6918547595682,
+     "intent": 44.3081452404318
+    },
+    "under_intent": {
+     "emotion": 11.187438665358194,
+     "intent": 88.8125613346418
+    },
+    "switch": {
+     "emotion": 44.50441609421001,
+     "intent": 44.50441609421
+    },
+    "ie": 144.50441609421
+   },
+   "shuffled": [
+    {
+     "under_emotion": {
+      "emotion": 30.274779195289497,
+      "intent": 69.7252208047105
+     },
+     "under_intent": {
+      "emotion": 32.77723258096173,
+      "intent": 67.22276741903828
+     },
+     "switch": {
+      "emotion": -2.502453385672233,
+      "intent": -2.5024533856722257
+     },
+     "ie": 97.49754661432777
+    },
+    {
+     "under_emotion": {
+      "emotion": 31.305201177625126,
+      "intent": 68.69479882237488
+     },
+     "under_intent": {
+      "emotion": 33.169774288518155,
+      "intent": 66.83022571148184
+     },
+     "switch": {
+      "emotion": -1.86457311089303,
+      "intent": -1.8645731108930335
+     },
+     "ie": 98.13542688910697
+    },
+    {
+     "under_emotion": {
+      "emotion": 30.520117762512267,
+      "intent": 69.47988223748773
+     },
+     "under_intent": {
+      "emotion": 30.66732090284593,
+      "intent": 69.33267909715407
+     },
+     "switch": {
+      "emotion": -0.14720314033366222,
+      "intent": -0.14720314033365867
+     },
+     "ie": 99.85279685966634
+    }
+   ],
+   "other_text": [
+    {
+     "under_emotion": {
+      "emotion": 33.70951913640825,
+      "intent": 66.29048086359177
+     },
+     "under_intent": {
+      "emotion": 25.171736997055937,
+      "intent": 74.82826300294406
+     },
+     "switch": {
+      "emotion": 8.53778213935231,
+      "intent": 8.537782139352288
+     },
+     "ie": 108.5377821393523
+    },
+    {
+     "under_emotion": {
+      "emotion": 31.648675171736997,
+      "intent": 68.351324828263
+     },
+     "under_intent": {
+      "emotion": 25.36800785083415,
+      "intent": 74.63199214916585
+     },
+     "switch": {
+      "emotion": 6.280667320902847,
+      "intent": 6.28066732090285
+     },
+     "ie": 106.28066732090285
+    },
+    {
+     "under_emotion": {
+      "emotion": 31.69774288518155,
+      "intent": 68.30225711481846
+     },
+     "under_intent": {
+      "emotion": 25.318940137389596,
+      "intent": 74.6810598626104
+     },
+     "switch": {
+      "emotion": 6.378802747791955,
+      "intent": 6.378802747791937
+     },
+     "ie": 106.37880274779195
+    }
+   ],
+   "positional": {
+    "under_emotion": {
+     "emotion": 30.765456329735034,
+     "intent": 69.23454367026497
+    },
+    "under_intent": {
+     "emotion": 21.786064769381746,
+     "intent": 78.21393523061825
+    },
+    "switch": {
+     "emotion": 8.979391560353289,
+     "intent": 8.979391560353278
+    },
+    "ie": 108.97939156035328
+   },
+   "interval": [
+    41.60942100098134,
+    47.351570166830214
+   ]
+  }
+ },
+ "olmo-3-7b-instruct|gte-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.36331932137784,
+     "location": 55.199122152715454
+    },
+    "under_location": {
+     "topic": 60.36331932137784,
+     "location": 55.199122152715454
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.66583319342967
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 52.74794602320764,
+     "location": 54.097553694500334
+    },
+    "under_location": {
+     "topic": 36.387446789538814,
+     "location": 79.45328397806243
+    },
+    "switch": {
+     "topic": 16.360499233668826,
+     "location": 25.355730283562096
+    },
+    "nyt": 63.403306225962666
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    3.361815674987018,
+    12.861366753472547
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "under_intent": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 39.25417075564279,
+     "intent": 60.74582924435721
+    },
+    "under_intent": {
+     "emotion": 10.647693817468106,
+     "intent": 89.35230618253189
+    },
+    "switch": {
+     "emotion": 28.606476938174684,
+     "intent": 28.60647693817468
+    },
+    "ie": 128.6064769381747
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    26.054955839057914,
+    31.108930323846906
+   ]
+  }
+ },
+ "olmo-3-7b-instruct|all-mpnet-base-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 56.30003392530117,
+     "location": 58.78708065387244
+    },
+    "under_location": {
+     "topic": 56.30003392530117,
+     "location": 58.78708065387244
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.516684595941875
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 52.40137697545959,
+     "location": 59.37638480706037
+    },
+    "under_location": {
+     "topic": 41.1965226532067,
+     "location": 81.96884432701493
+    },
+    "switch": {
+     "topic": 11.204854322252892,
+     "location": 22.592459519954566
+    },
+    "nyt": 63.93202705414619
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 56.49537809628289,
+     "location": 57.36290115383576
+    },
+    "under_location": {
+     "topic": 56.49537809628289,
+     "location": 57.36290115383576
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.92583465516959
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 54.368848381634116,
+     "location": 59.03080276530432
+    },
+    "under_location": {
+     "topic": 52.728203329689386,
+     "location": 60.87633305981805
+    },
+    "switch": {
+     "topic": 1.6406450519447304,
+     "location": 1.845530294513729
+    },
+    "nyt": 57.43886348622479
+   },
+   "interval": [
+    4.441330796642761,
+    13.578906053414642
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "under_intent": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 38.46908734052993,
+     "intent": 61.53091265947007
+    },
+    "under_intent": {
+     "emotion": 11.874386653581944,
+     "intent": 88.12561334641805
+    },
+    "switch": {
+     "emotion": 26.594700686947988,
+     "intent": 26.59470068694798
+    },
+    "ie": 126.59470068694799
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "under_intent": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.00000000000001
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 17.026496565260057,
+     "intent": 82.97350343473994
+    },
+    "under_intent": {
+     "emotion": 14.278704612365065,
+     "intent": 85.72129538763494
+    },
+    "switch": {
+     "emotion": 2.7477919528949926,
+     "intent": 2.7477919528949997
+    },
+    "ie": 102.747791952895
+   },
+   "interval": [
+    24.238223748773287,
+    29.00024533856723
+   ]
+  }
+ },
+ "olmo-3-7b-instruct|e5-large-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 61.109861765324894,
+     "location": 49.84694802646278
+    },
+    "under_location": {
+     "topic": 61.109861765324894,
+     "location": 49.84694802646278
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.906771544876875
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 59.29689939992551,
+     "location": 51.627610751554556
+    },
+    "under_location": {
+     "topic": 45.403433290632265,
+     "location": 77.71915425916698
+    },
+    "switch": {
+     "topic": 13.893466109293243,
+     "location": 26.09154350761243
+    },
+    "nyt": 67.26956073316533
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 61.83324407149888,
+     "location": 49.31096276953084
+    },
+    "under_location": {
+     "topic": 61.83324407149888,
+     "location": 49.31096276953084
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.86667965812464
+   },
+   "positional": {
+    "under_topic": {
+     "topic": 60.26958315414224,
+     "location": 52.77951041518507
+    },
+    "under_location": {
+     "topic": 60.512760312404104,
+     "location": 52.32538695849642
+    },
+    "switch": {
+     "topic": -0.24317715826186515,
+     "location": -0.45412345668864873
+    },
+    "nyt": 56.017231625620724
+   },
+   "interval": [
+    4.933327245848836,
+    17.277680702646496
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "under_intent": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 69.43081452404319,
+     "intent": 30.56918547595682
+    },
+    "under_intent": {
+     "emotion": 51.079489695780175,
+     "intent": 48.920510304219825
+    },
+    "switch": {
+     "emotion": 18.35132482826301,
+     "intent": 18.351324828263003
+    },
+    "ie": 118.35132482826302
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "under_intent": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "positional": {
+    "under_emotion": {
+     "emotion": 57.21295387634936,
+     "intent": 42.78704612365064
+    },
+    "under_intent": {
+     "emotion": 55.44651619234544,
+     "intent": 44.553483807654565
+    },
+    "switch": {
+     "emotion": 1.7664376840039182,
+     "intent": 1.7664376840039253
+    },
+    "ie": 101.76643768400393
+   },
+   "interval": [
+    16.19234543670265,
+    20.657507360157012
+   ]
+  }
+ },
+ "olmo-3-7b-instruct|all-MiniLM-L6-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 54.91645077225665,
+     "location": 57.53425607007523
+    },
+    "under_location": {
+     "topic": 54.91645077225665,
+     "location": 57.53425607007523
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.19488271590268
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 49.38819026102962,
+     "location": 45.90176891078501
+    },
+    "under_location": {
+     "topic": 32.78636190608902,
+     "location": 73.44069663408983
+    },
+    "switch": {
+     "topic": 16.6018283549406,
+     "location": 27.538927723304823
+    },
+    "nyt": 59.059447495189794
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 55.643899233575844,
+     "location": 57.15375345459002
+    },
+    "under_location": {
+     "topic": 55.643899233575844,
+     "location": 57.15375345459002
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.3887212584399
+   },
+   "interval": [
+    -1.3492591027673442,
+    7.247647178218052
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "under_intent": {
+     "emotion": 11.383709519136408,
+     "intent": 88.6162904808636
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 59.32286555446517,
+     "intent": 40.67713444553484
+    },
+    "under_intent": {
+     "emotion": 18.15505397448479,
+     "intent": 81.84494602551521
+    },
+    "switch": {
+     "emotion": 41.16781157998038,
+     "intent": 41.16781157998037
+    },
+    "ie": 141.16781157998037
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "under_intent": {
+     "emotion": 12.95387634936212,
+     "intent": 87.04612365063788
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "interval": [
+    38.27281648675173,
+    43.866535819430815
+   ]
+  }
+ },
+ "olmo-3-7b-instruct|bge-small-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 57.31535963620801,
+     "location": 50.54129445961888
+    },
+    "under_location": {
+     "topic": 57.31535963620801,
+     "location": 50.54129445961888
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 53.71560044560601
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 50.041755656935315,
+     "location": 53.190182051952426
+    },
+    "under_location": {
+     "topic": 34.042665146674125,
+     "location": 73.62204058672145
+    },
+    "switch": {
+     "topic": 15.99909051026119,
+     "location": 20.431858534769027
+    },
+    "nyt": 59.5837468666562
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    0.7541635213687089,
+    10.877749025125514
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "under_intent": {
+     "emotion": 24.141315014720313,
+     "intent": 75.8586849852797
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 62.11972522080471,
+     "intent": 37.88027477919529
+    },
+    "under_intent": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "switch": {
+     "emotion": 46.41805691854759,
+     "intent": 46.418056918547606
+    },
+    "ie": 146.41805691854762
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    43.52306182531896,
+    49.36211972522081
+   ]
+  }
+ },
+ "olmo-3-7b-instruct|bge-base-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 59.7711822833342,
+     "location": 51.67448162489028
+    },
+    "under_location": {
+     "topic": 59.7711822833342,
+     "location": 51.67448162489028
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.4287130114619
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 57.85662668444906,
+     "location": 49.81002953878932
+    },
+    "under_location": {
+     "topic": 38.18242761733414,
+     "location": 81.8345561819213
+    },
+    "switch": {
+     "topic": 19.67419906711492,
+     "location": 32.02452664313198
+    },
+    "nyt": 67.78769095828078
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    5.439029665447877,
+    15.592108818053294
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "under_intent": {
+     "emotion": 25.417075564278708,
+     "intent": 74.5829244357213
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 57.605495583905785,
+     "intent": 42.39450441609421
+    },
+    "under_intent": {
+     "emotion": 15.309126594700686,
+     "intent": 84.69087340529931
+    },
+    "switch": {
+     "emotion": 42.2963689892051,
+     "intent": 42.29636898920511
+    },
+    "ie": 142.2963689892051
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    39.25417075564279,
+    45.2404317958783
+   ]
+  }
+ },
+ "olmo-3-7b-instruct|qwen3-emb-4b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 48.70657973481825,
+     "location": 70.12782186435999
+    },
+    "under_location": {
+     "topic": 48.70657973481825,
+     "location": 70.12782186435999
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.48649046524011
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 48.91842506168852,
+     "location": 63.56716498274475
+    },
+    "under_location": {
+     "topic": 36.26057109069041,
+     "location": 77.4637458146829
+    },
+    "switch": {
+     "topic": 12.657853970998104,
+     "location": 13.896580831938145
+    },
+    "nyt": 59.96738967730046
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -2.258181436860255,
+    9.103720194199685
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "under_intent": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 99.99999999999999
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 32.13935230618253,
+     "intent": 67.86064769381747
+    },
+    "under_intent": {
+     "emotion": 6.575073601570167,
+     "intent": 93.42492639842983
+    },
+    "switch": {
+     "emotion": 25.564278704612363,
+     "intent": 25.564278704612363
+    },
+    "ie": 125.56427870461236
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    23.258096172718357,
+    27.919528949950923
+   ]
+  }
+ },
+ "olmo-3-7b-instruct|qwen3-emb-8b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 58.633654207413755,
+     "location": 58.358738944685044
+    },
+    "under_location": {
+     "topic": 58.633654207413755,
+     "location": 58.358738944685044
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 58.49587356992637
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 55.77641374088561,
+     "location": 57.99107329573147
+    },
+    "under_location": {
+     "topic": 38.069629572771134,
+     "location": 81.0821791861371
+    },
+    "switch": {
+     "topic": 17.706784168114474,
+     "location": 23.09110589040563
+    },
+    "nyt": 66.08972190262232
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    2.6515079634582026,
+    12.567323103539891
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "under_intent": {
+     "emotion": 7.016683022571148,
+     "intent": 92.98331697742886
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 31.207065750736017,
+     "intent": 68.79293424926398
+    },
+    "under_intent": {
+     "emotion": 6.182531894013739,
+     "intent": 93.81746810598625
+    },
+    "switch": {
+     "emotion": 25.02453385672228,
+     "intent": 25.02453385672227
+    },
+    "ie": 125.02453385672227
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    22.571148184494593,
+    27.33071638861627
+   ]
+  }
+ },
+ "qwen3-1.7b-base|qwen3-emb-0.6b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "under_location": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.909203927156234
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 42.80604960325087,
+     "location": 65.05805718618004
+    },
+    "under_location": {
+     "topic": 42.221089255878994,
+     "location": 64.42356107767957
+    },
+    "switch": {
+     "topic": 0.5849603473718759,
+     "location": -0.6344961085004712
+    },
+    "nyt": 51.435757969676644
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -8.826917349226736,
+    0.7790304211366796
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "under_intent": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 7.311089303238469,
+     "intent": 92.68891069676152
+    },
+    "under_intent": {
+     "emotion": 6.427870461236507,
+     "intent": 93.57212953876349
+    },
+    "switch": {
+     "emotion": 0.8832188420019618,
+     "intent": 0.8832188420019662
+    },
+    "ie": 100.88321884200197
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -0.4906771344455385,
+    2.3061825318940077
+   ]
+  }
+ },
+ "qwen3-1.7b-base|bge-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "under_location": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.67232491541534
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 47.16173618988053,
+     "location": 61.101576518855225
+    },
+    "under_location": {
+     "topic": 47.25412932116571,
+     "location": 64.1748278847929
+    },
+    "switch": {
+     "topic": -0.09239313128518489,
+     "location": 3.0732513659376792
+    },
+    "nyt": 54.368415764590495
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -9.905137467792228,
+    3.0004446006092946
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "under_intent": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 31.207065750736017,
+     "intent": 68.79293424926398
+    },
+    "under_intent": {
+     "emotion": 26.643768400392542,
+     "intent": 73.35623159960745
+    },
+    "switch": {
+     "emotion": 4.5632973503434755,
+     "intent": 4.5632973503434755
+    },
+    "ie": 104.56329735034348
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    2.010549558390569,
+    7.016683022571125
+   ]
+  }
+ },
+ "qwen3-1.7b-base|gte-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "under_location": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.80209759253981
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 44.00486616383928,
+     "location": 66.61340531461978
+    },
+    "under_location": {
+     "topic": 41.26785093255895,
+     "location": 66.70888661608808
+    },
+    "switch": {
+     "topic": 2.7370152312803313,
+     "location": 0.09548130146829692
+    },
+    "nyt": 53.028924659220586
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -10.015005241522717,
+    2.3122074926023775
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "under_intent": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 21.736997055937195,
+     "intent": 78.2630029440628
+    },
+    "under_intent": {
+     "emotion": 19.57801766437684,
+     "intent": 80.42198233562316
+    },
+    "switch": {
+     "emotion": 2.1589793915603543,
+     "intent": 2.158979391560351
+    },
+    "ie": 102.15897939156035
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    0.19627085377821318,
+    4.1216879293424995
+   ]
+  }
+ },
+ "qwen3-1.7b-base|all-mpnet-base-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "under_location": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.70687539469155
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 50.35307781414754,
+     "location": 65.3356794653746
+    },
+    "under_location": {
+     "topic": 50.71942716465275,
+     "location": 64.20461073523394
+    },
+    "switch": {
+     "topic": -0.3663493505052102,
+     "location": -1.1310687301406546
+    },
+    "nyt": 56.4414279178911
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "under_location": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.61549631685255
+   },
+   "interval": [
+    -3.326742399460596,
+    5.844183202779076
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "under_intent": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 19.479882237487733,
+     "intent": 80.52011776251227
+    },
+    "under_intent": {
+     "emotion": 17.46810598626104,
+     "intent": 82.53189401373896
+    },
+    "switch": {
+     "emotion": 2.011776251226692,
+     "intent": 2.011776251226692
+    },
+    "ie": 102.01177625122669
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "under_intent": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.00000000000001
+   },
+   "interval": [
+    0.4906771344455385,
+    3.5328753680078377
+   ]
+  }
+ },
+ "qwen3-1.7b-base|e5-large-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "under_location": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.27379069900862
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 60.805623344134986,
+     "location": 47.81868195323532
+    },
+    "under_location": {
+     "topic": 60.798561049950514,
+     "location": 52.126433899054724
+    },
+    "switch": {
+     "topic": 0.007062294184471796,
+     "location": 4.307751945819405
+    },
+    "nyt": 56.13251690058881
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "under_location": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.7826558849076
+   },
+   "interval": [
+    -6.3202432939005915,
+    5.040465574272995
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "under_intent": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 57.458292443572134,
+     "intent": 42.54170755642787
+    },
+    "under_intent": {
+     "emotion": 56.18253189401374,
+     "intent": 43.817468105986265
+    },
+    "switch": {
+     "emotion": 1.2757605495583917,
+     "intent": 1.2757605495583917
+    },
+    "ie": 101.2757605495584
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "under_intent": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "interval": [
+    -0.24533856722276412,
+    2.894995093228642
+   ]
+  }
+ },
+ "qwen3-8b-base|qwen3-emb-0.6b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "under_location": {
+     "topic": 52.474154413681106,
+     "location": 59.82548429555796
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 55.909203927156234
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 50.57365228075816,
+     "location": 59.4259239160752
+    },
+    "under_location": {
+     "topic": 44.68242685778298,
+     "location": 69.64511996062446
+    },
+    "switch": {
+     "topic": 5.891225422975182,
+     "location": 10.219196044549257
+    },
+    "nyt": 58.59664034563432
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -3.6902947040631937,
+    4.940541473902848
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "under_intent": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 6.575073601570167,
+     "intent": 93.42492639842983
+    },
+    "under_intent": {
+     "emotion": 5.053974484789009,
+     "intent": 94.94602551521099
+    },
+    "switch": {
+     "emotion": 1.5210991167811576,
+     "intent": 1.5210991167811585
+    },
+    "ie": 101.52109911678116
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    0.04906771344456162,
+    3.0421982335622992
+   ]
+  }
+ },
+ "qwen3-8b-base|bge-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "under_location": {
+     "topic": 59.24268457702827,
+     "location": 54.31573077529579
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.67232491541534
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 53.26006804956798,
+     "location": 62.3378516382356
+    },
+    "under_location": {
+     "topic": 50.22409973787349,
+     "location": 67.46691248963278
+    },
+    "switch": {
+     "topic": 3.0359683116944893,
+     "location": 5.129060851397178
+    },
+    "nyt": 59.52757758396123
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -0.14507331122782124,
+    9.67211974763865
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "under_intent": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 23.699705593719333,
+     "intent": 76.30029440628067
+    },
+    "under_intent": {
+     "emotion": 16.928361138370953,
+     "intent": 83.07163886162905
+    },
+    "switch": {
+     "emotion": 6.77134445534838,
+     "intent": 6.771344455348384
+    },
+    "ie": 106.77134445534838
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    4.514229636898904,
+    9.175662414131502
+   ]
+  }
+ },
+ "qwen3-8b-base|gte-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "under_location": {
+     "topic": 60.12694861427054,
+     "location": 53.825688519139035
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.80209759253981
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 51.1665398017862,
+     "location": 65.0380517445242
+    },
+    "under_location": {
+     "topic": 46.6982580974083,
+     "location": 73.13895848006621
+    },
+    "switch": {
+     "topic": 4.468281704377901,
+     "location": 8.100906735542011
+    },
+    "nyt": 60.21081097500787
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -1.536702050215405,
+    9.709230297451276
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "under_intent": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 17.46810598626104,
+     "intent": 82.53189401373896
+    },
+    "under_intent": {
+     "emotion": 14.082433758586848,
+     "intent": 85.91756624141314
+    },
+    "switch": {
+     "emotion": 3.385672227674192,
+     "intent": 3.3856722276741777
+    },
+    "ie": 103.38567222767418
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    1.3248282630029526,
+    5.348380765456328
+   ]
+  }
+ },
+ "qwen3-8b-base|all-mpnet-base-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "under_location": {
+     "topic": 57.80610087994946,
+     "location": 55.64867494979426
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.70687539469155
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 50.571158028877726,
+     "location": 63.51629164813046
+    },
+    "under_location": {
+     "topic": 51.24463397359526,
+     "location": 65.8983908387535
+    },
+    "switch": {
+     "topic": -0.6734759447175378,
+     "location": 2.3820991906230375
+    },
+    "nyt": 57.226253030553465
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "under_location": {
+     "topic": 57.60610146872427,
+     "location": 55.658384466970524
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.61549631685255
+   },
+   "interval": [
+    -3.1693763164546738,
+    6.9916957794654415
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "under_intent": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 14.376840039254171,
+     "intent": 85.62315996074584
+    },
+    "under_intent": {
+     "emotion": 11.97252208047105,
+     "intent": 88.02747791952895
+    },
+    "switch": {
+     "emotion": 2.404317958783121,
+     "intent": 2.4043179587831105
+    },
+    "ie": 102.40431795878312
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "under_intent": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.00000000000001
+   },
+   "interval": [
+    1.0794896957801778,
+    3.8272816486751626
+   ]
+  }
+ },
+ "qwen3-8b-base|e5-large-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "under_location": {
+     "topic": 60.36748518383484,
+     "location": 49.297533872877715
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.27379069900862
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 61.578388508231775,
+     "location": 49.33849353616796
+    },
+    "under_location": {
+     "topic": 58.82635052604017,
+     "location": 53.94526259028743
+    },
+    "switch": {
+     "topic": 2.7520379821916023,
+     "location": 4.606769054119468
+    },
+    "nyt": 57.50964943276669
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "under_location": {
+     "topic": 61.54474010657035,
+     "location": 49.35940664782931
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.7826558849076
+   },
+   "interval": [
+    -4.278868633679404,
+    5.883720965759598
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "under_intent": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 53.876349362119726,
+     "intent": 46.123650637880274
+    },
+    "under_intent": {
+     "emotion": 50.63788027477919,
+     "intent": 49.36211972522081
+    },
+    "switch": {
+     "emotion": 3.2384690873405333,
+     "intent": 3.2384690873405333
+    },
+    "ie": 103.23846908734053
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "under_intent": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "interval": [
+    1.7664376840039242,
+    4.662659470068695
+   ]
+  }
+ },
+ "llama-3.1-8b-base|qwen3-emb-0.6b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 53.80593464760119,
+     "location": 60.910524166312804
+    },
+    "under_location": {
+     "topic": 53.80593464760119,
+     "location": 60.910524166312804
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.138229622856535
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 51.158067451413125,
+     "location": 65.25064056583409
+    },
+    "under_location": {
+     "topic": 39.392459669966954,
+     "location": 79.36144164656807
+    },
+    "switch": {
+     "topic": 11.765607781446171,
+     "location": 14.110801080733978
+    },
+    "nyt": 62.21258435346364
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -2.103451509941827,
+    8.524265048207907
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "under_intent": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 4.5142296368989205,
+     "intent": 95.48577036310107
+    },
+    "under_intent": {
+     "emotion": 3.729146221786065,
+     "intent": 96.27085377821393
+    },
+    "switch": {
+     "emotion": 0.7850834151128554,
+     "intent": 0.7850834151128652
+    },
+    "ie": 100.78508341511285
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -0.6869479882237297,
+    2.1589793915603455
+   ]
+  }
+ },
+ "llama-3.1-8b-base|bge-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 62.23449628728781,
+     "location": 52.26552382264064
+    },
+    "under_location": {
+     "topic": 62.23449628728781,
+     "location": 52.26552382264064
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.816034532431075
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 53.346532282773794,
+     "location": 67.51702024873748
+    },
+    "under_location": {
+     "topic": 42.35757909681689,
+     "location": 82.58545308519602
+    },
+    "switch": {
+     "topic": 10.988953185956902,
+     "location": 15.068432836458541
+    },
+    "nyt": 64.82135204806065
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    2.322161790639626,
+    14.361441901494356
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "under_intent": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 13.150147203140333,
+     "intent": 86.84985279685966
+    },
+    "under_intent": {
+     "emotion": 9.470068694798822,
+     "intent": 90.52993130520117
+    },
+    "switch": {
+     "emotion": 3.680078508341511,
+     "intent": 3.6800785083415093
+    },
+    "ie": 103.68007850834151
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    1.2266928361138185,
+    6.182531894013743
+   ]
+  }
+ },
+ "llama-3.1-8b-base|gte-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 60.34185947535738,
+     "location": 55.329169188362116
+    },
+    "under_location": {
+     "topic": 60.34185947535738,
+     "location": 55.329169188362116
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.726899995499686
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 52.44675521413801,
+     "location": 66.57621246410741
+    },
+    "under_location": {
+     "topic": 40.8639132098345,
+     "location": 81.44793845345463
+    },
+    "switch": {
+     "topic": 11.582842004303508,
+     "location": 14.871725989347212
+    },
+    "nyt": 63.806562810285754
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    0.12171424946346113,
+    10.07818835933868
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "under_intent": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 11.923454367026496,
+     "intent": 88.0765456329735
+    },
+    "under_intent": {
+     "emotion": 9.617271835132483,
+     "intent": 90.38272816486752
+    },
+    "switch": {
+     "emotion": 2.306182531894013,
+     "intent": 2.3061825318940095
+    },
+    "ie": 102.30618253189401
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    0.19627085377821318,
+    4.465161923454364
+   ]
+  }
+ },
+ "llama-3.1-8b-base|all-mpnet-base-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 55.9444956289158,
+     "location": 56.58136922695432
+    },
+    "under_location": {
+     "topic": 55.9444956289158,
+     "location": 56.58136922695432
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.26113013966596
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 50.585288724470566,
+     "location": 67.32585106435494
+    },
+    "under_location": {
+     "topic": 41.57479284548639,
+     "location": 79.99798003282037
+    },
+    "switch": {
+     "topic": 9.010495878984173,
+     "location": 12.67212896846543
+    },
+    "nyt": 61.97916403555669
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 56.62040751418218,
+     "location": 56.081665646730116
+    },
+    "under_location": {
+     "topic": 56.62040751418218,
+     "location": 56.081665646730116
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.34974892485095
+   },
+   "interval": [
+    1.6185207715139092,
+    11.823091354269124
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "under_intent": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 11.285574092247302,
+     "intent": 88.7144259077527
+    },
+    "under_intent": {
+     "emotion": 9.519136408243375,
+     "intent": 90.48086359175662
+    },
+    "switch": {
+     "emotion": 1.766437684003927,
+     "intent": 1.7664376840039182
+    },
+    "ie": 101.76643768400392
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "under_intent": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.00000000000001
+   },
+   "interval": [
+    0.29317958783119025,
+    3.2875368007850847
+   ]
+  }
+ },
+ "llama-3.1-8b-base|e5-large-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 59.58413206029396,
+     "location": 50.64874677321101
+    },
+    "under_location": {
+     "topic": 59.58413206029396,
+     "location": 50.64874677321101
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.75429197407016
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 60.270437588161066,
+     "location": 55.441190324540614
+    },
+    "under_location": {
+     "topic": 48.55101758603375,
+     "location": 72.30980036161722
+    },
+    "switch": {
+     "topic": 11.719420002127315,
+     "location": 16.868610037076607
+    },
+    "nyt": 65.74348299669278
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 61.14045649842714,
+     "location": 49.221551441967826
+    },
+    "under_location": {
+     "topic": 61.14045649842714,
+     "location": 49.221551441967826
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.53739345374743
+   },
+   "interval": [
+    2.920919609516271,
+    16.43172343641638
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "under_intent": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 49.16584887144259,
+     "intent": 50.834151128557416
+    },
+    "under_intent": {
+     "emotion": 46.36898920510304,
+     "intent": 53.63101079489696
+    },
+    "switch": {
+     "emotion": 2.79685966633955,
+     "intent": 2.796859666339543
+    },
+    "ie": 102.79685966633954
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "under_intent": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "interval": [
+    1.0794896957801834,
+    4.514229636898931
+   ]
+  }
+ },
+ "olmo-3-7b-base|qwen3-emb-0.6b": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 53.300852733226165,
+     "location": 60.65548686535103
+    },
+    "under_location": {
+     "topic": 53.300852733226165,
+     "location": 60.65548686535103
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.74083924128087
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 50.62247559449068,
+     "location": 58.31981401575354
+    },
+    "under_location": {
+     "topic": 50.69593393435511,
+     "location": 59.65131153269142
+    },
+    "switch": {
+     "topic": -0.0734583398644304,
+     "location": 1.3314975169378798
+    },
+    "nyt": 54.76726864804127
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -5.2678072762077495,
+    3.770397063793571
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "under_intent": {
+     "emotion": 7.60549558390579,
+     "intent": 92.39450441609421
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 8.04710500490677,
+     "intent": 91.95289499509323
+    },
+    "under_intent": {
+     "emotion": 6.771344455348381,
+     "intent": 93.22865554465162
+    },
+    "switch": {
+     "emotion": 1.275760549558389,
+     "intent": 1.2757605495583846
+    },
+    "ie": 101.27576054955838
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -0.34347399411188695,
+    2.796859666339546
+   ]
+  }
+ },
+ "olmo-3-7b-base|bge-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 62.193797110412085,
+     "location": 52.476380434936175
+    },
+    "under_location": {
+     "topic": 62.193797110412085,
+     "location": 52.476380434936175
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.92335056410058
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 52.99289213316122,
+     "location": 56.79605322085584
+    },
+    "under_location": {
+     "topic": 51.706169215031395,
+     "location": 61.40413575875121
+    },
+    "switch": {
+     "topic": 1.2867229181298256,
+     "location": 4.6080825378953705
+    },
+    "nyt": 56.88928816996117
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -4.522703164969536,
+    4.543792510040849
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "under_intent": {
+     "emotion": 28.85181550539745,
+     "intent": 71.14818449460255
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 27.33071638861629,
+     "intent": 72.6692836113837
+    },
+    "under_intent": {
+     "emotion": 23.895976447497546,
+     "intent": 76.10402355250245
+    },
+    "switch": {
+     "emotion": 3.4347399411187425,
+     "intent": 3.4347399411187496
+    },
+    "ie": 103.43473994111875
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    0.7850834151128638,
+    5.987487733071636
+   ]
+  }
+ },
+ "olmo-3-7b-base|gte-large-en-v1.5": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 59.9899653548005,
+     "location": 54.981388602224854
+    },
+    "under_location": {
+     "topic": 59.9899653548005,
+     "location": 54.981388602224854
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.37658092833233
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 49.830925739225364,
+     "location": 58.582962867419255
+    },
+    "under_location": {
+     "topic": 44.89979446318049,
+     "location": 65.76559909339805
+    },
+    "switch": {
+     "topic": 4.931131276044873,
+     "location": 7.182636225978797
+    },
+    "nyt": 56.69998625539237
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    -5.12778141792308,
+    4.138569856861349
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "under_intent": {
+     "emotion": 22.669283611383708,
+     "intent": 77.3307163886163
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 23.503434739941117,
+     "intent": 76.49656526005887
+    },
+    "under_intent": {
+     "emotion": 20.068694798822374,
+     "intent": 79.93130520117762
+    },
+    "switch": {
+     "emotion": 3.4347399411187425,
+     "intent": 3.4347399411187496
+    },
+    "ie": 103.43473994111874
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    1.3248282630029415,
+    5.544651619234553
+   ]
+  }
+ },
+ "olmo-3-7b-base|all-mpnet-base-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 56.30003392530117,
+     "location": 58.78708065387244
+    },
+    "under_location": {
+     "topic": 56.30003392530117,
+     "location": 58.78708065387244
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 57.516684595941875
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 49.44433979168796,
+     "location": 62.56869556605879
+    },
+    "under_location": {
+     "topic": 49.332904528862585,
+     "location": 64.57203675471102
+    },
+    "switch": {
+     "topic": 0.11143526282537408,
+     "location": 2.0033411886522288
+    },
+    "nyt": 56.0046165826716
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 56.49537809628289,
+     "location": 57.36290115383576
+    },
+    "under_location": {
+     "topic": 56.49537809628289,
+     "location": 57.36290115383576
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.92583465516959
+   },
+   "interval": [
+    -4.841794495035275,
+    3.636151143118631
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "under_intent": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 18.20412168792934,
+     "intent": 81.79587831207066
+    },
+    "under_intent": {
+     "emotion": 16.8792934249264,
+     "intent": 83.1207065750736
+    },
+    "switch": {
+     "emotion": 1.3248282630029422,
+     "intent": 1.3248282630029422
+    },
+    "ie": 101.32482826300294
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "under_intent": {
+     "emotion": 15.701668302257115,
+     "intent": 84.2983316977429
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.00000000000001
+   },
+   "interval": [
+    -0.44160942100097716,
+    3.0421982335623103
+   ]
+  }
+ },
+ "olmo-3-7b-base|e5-large-v2": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 61.109861765324894,
+     "location": 49.84694802646278
+    },
+    "under_location": {
+     "topic": 61.109861765324894,
+     "location": 49.84694802646278
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.906771544876875
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 44.32695665808693,
+     "location": 40.922624184073605
+    },
+    "under_location": {
+     "topic": 44.20712547060831,
+     "location": 45.17741865700827
+    },
+    "switch": {
+     "topic": 0.1198311874786171,
+     "location": 4.2547944729346625
+    },
+    "nyt": 44.74814715283172
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_topic": {
+     "topic": 61.83324407149888,
+     "location": 49.31096276953084
+    },
+    "under_location": {
+     "topic": 61.83324407149888,
+     "location": 49.31096276953084
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 54.86667965812464
+   },
+   "interval": [
+    -18.13972967073805,
+    -5.274463207513509
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "under_intent": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 58.63591756624141,
+     "intent": 41.36408243375859
+    },
+    "under_intent": {
+     "emotion": 57.409224730127576,
+     "intent": 42.590775269872424
+    },
+    "switch": {
+     "emotion": 1.226692836113834,
+     "intent": 1.226692836113834
+    },
+    "ie": 101.22669283611384
+   },
+   "shuffled": [],
+   "other_text": [],
+   "uniform": {
+    "under_emotion": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "under_intent": {
+     "emotion": 56.820412168792934,
+     "intent": 43.179587831207066
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "interval": [
+    -0.539744847890078,
+    3.0912659470068715
+   ]
+  }
+ }
+}

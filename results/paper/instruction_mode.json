@@ -1,0 +1,98 @@
+{
+ "none": {
+  "nyt": {
+   "under_topic": {
+    "topic": 52.83701523752383,
+    "location": 60.41761462912514
+   },
+   "under_location": {
+    "topic": 52.83701523752383,
+    "location": 60.41761462912514
+   },
+   "switch": {
+    "topic": 0.0,
+    "location": 0.0
+   },
+   "nyt": 56.373614544579425
+  },
+  "ie": {
+   "under_emotion": {
+    "emotion": 7.703631010794896,
+    "intent": 92.2963689892051
+   },
+   "under_intent": {
+    "emotion": 7.703631010794896,
+    "intent": 92.2963689892051
+   },
+   "switch": {
+    "emotion": 0.0,
+    "intent": 0.0
+   },
+   "ie": 100.0
+  }
+ },
+ "question": {
+  "nyt": {
+   "under_topic": {
+    "topic": 61.793522447611316,
+    "location": 42.977618008490666
+   },
+   "under_location": {
+    "topic": 49.3224443031217,
+    "location": 64.75253762928565
+   },
+   "switch": {
+    "topic": 12.471078144489617,
+    "location": 21.77491962079499
+   },
+   "nyt": 63.23843484454623
+  },
+  "ie": {
+   "under_emotion": {
+    "emotion": 67.22276741903828,
+    "intent": 32.77723258096173
+   },
+   "under_intent": {
+    "emotion": 5.397448478900883,
+    "intent": 94.60255152109912
+   },
+   "switch": {
+    "emotion": 61.82531894013739,
+    "intent": 61.825318940137386
+   },
+   "ie": 161.82531894013738
+  }
+ },
+ "task_description": {
+  "nyt": {
+   "under_topic": {
+    "topic": 64.11779594544076,
+    "location": 38.749317042234146
+   },
+   "under_location": {
+    "topic": 37.82608599366905,
+    "location": 73.32273097933516
+   },
+   "switch": {
+    "topic": 26.291709951771715,
+    "location": 34.573413937101016
+   },
+   "nyt": 68.41201803066966
+  },
+  "ie": {
+   "under_emotion": {
+    "emotion": 94.35721295387634,
+    "intent": 5.642787046123651
+   },
+   "under_intent": {
+    "emotion": 4.36702649656526,
+    "intent": 95.63297350343474
+   },
+   "switch": {
+    "emotion": 89.99018645731108,
+    "intent": 89.9901864573111
+   },
+   "ie": 189.9901864573111
+  }
+ }
+}

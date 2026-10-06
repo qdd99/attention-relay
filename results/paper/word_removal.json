@@ -1,0 +1,632 @@
+{
+ "qwen3-emb-0.6b": {
+  "nyt": {
+   "top_alone": {
+    "under_topic": {
+     "topic": 51.28265390685021,
+     "location": 43.6437277153404
+    },
+    "under_location": {
+     "topic": 56.479139933705746,
+     "location": 34.132395276187026
+    },
+    "switch": {
+     "topic": -5.196486026855538,
+     "location": -9.511332439153371
+    },
+    "nyt": 40.98574737547844
+   },
+   "top_relayed": {
+    "under_topic": {
+     "topic": 53.054406676023525,
+     "location": 46.02260585771559
+    },
+    "under_location": {
+     "topic": 57.57200094143131,
+     "location": 35.13716805495918
+    },
+    "switch": {
+     "topic": -4.517594265407787,
+     "location": -10.885437802756407
+    },
+    "nyt": 42.275730059178564
+   },
+   "random_alone": {
+    "under_topic": {
+     "topic": 54.333144284141845,
+     "location": 55.7415477570274
+    },
+    "under_location": {
+     "topic": 53.974924925896815,
+     "location": 59.688666327214456
+    },
+    "switch": {
+     "topic": 0.35821935824503015,
+     "location": 3.947118570187058
+    },
+    "nyt": 56.88513280516345
+   },
+   "random_relayed": {
+    "under_topic": {
+     "topic": 57.27973296717911,
+     "location": 47.28446148834392
+    },
+    "under_location": {
+     "topic": 35.1933908392741,
+     "location": 73.84271574413975
+    },
+    "switch": {
+     "topic": 22.086342127905006,
+     "location": 26.55825425579583
+    },
+    "nyt": 64.51513193862831
+   }
+  },
+  "ie": {
+   "top_alone": {
+    "under_emotion": {
+     "emotion": 17.271835132482828,
+     "intent": 82.72816486751718
+    },
+    "under_intent": {
+     "emotion": 55.64278704612365,
+     "intent": 44.35721295387635
+    },
+    "switch": {
+     "emotion": -38.37095191364082,
+     "intent": -38.37095191364083
+    },
+    "ie": 61.62904808635918
+   },
+   "top_relayed": {
+    "under_emotion": {
+     "emotion": 23.65063788027478,
+     "intent": 76.34936211972521
+    },
+    "under_intent": {
+     "emotion": 45.976447497546616,
+     "intent": 54.023552502453384
+    },
+    "switch": {
+     "emotion": -22.325809617271837,
+     "intent": -22.32580961727183
+    },
+    "ie": 77.67419038272817
+   },
+   "random_alone": {
+    "under_emotion": {
+     "emotion": 16.78115799803729,
+     "intent": 83.21884200196271
+    },
+    "under_intent": {
+     "emotion": 17.76251226692836,
+     "intent": 82.23748773307163
+    },
+    "switch": {
+     "emotion": -0.9813542688910708,
+     "intent": -0.9813542688910815
+    },
+    "ie": 99.01864573110892
+   },
+   "random_relayed": {
+    "under_emotion": {
+     "emotion": 46.859666339548575,
+     "intent": 53.140333660451425
+    },
+    "under_intent": {
+     "emotion": 13.297350343473994,
+     "intent": 86.702649656526
+    },
+    "switch": {
+     "emotion": 33.56231599607458,
+     "intent": 33.56231599607458
+    },
+    "ie": 133.56231599607457
+   }
+  }
+ },
+ "bge-large-en-v1.5": {
+  "nyt": {
+   "top_alone": {
+    "under_topic": {
+     "topic": 57.337700075601596,
+     "location": 50.30927975789567
+    },
+    "under_location": {
+     "topic": 57.04204114159543,
+     "location": 37.010722061757306
+    },
+    "switch": {
+     "topic": 0.2956589340061626,
+     "location": -13.298557696138367
+    },
+    "nyt": 44.98452932358501
+   },
+   "top_relayed": {
+    "under_topic": {
+     "topic": 57.845848711576885,
+     "location": 50.249772171436454
+    },
+    "under_location": {
+     "topic": 58.52066067584835,
+     "location": 39.17785710235601
+    },
+    "switch": {
+     "topic": -0.6748119642714627,
+     "location": -11.071915069080447
+    },
+    "nyt": 46.715931446886906
+   },
+   "random_alone": {
+    "under_topic": {
+     "topic": 59.91505907935457,
+     "location": 54.29470868802617
+    },
+    "under_location": {
+     "topic": 60.49201615205767,
+     "location": 53.83345880910551
+    },
+    "switch": {
+     "topic": -0.5769570727031024,
+     "location": -0.46124987892066116
+    },
+    "nyt": 56.71168160851133
+   },
+   "random_relayed": {
+    "under_topic": {
+     "topic": 62.19879884460677,
+     "location": 49.09003849782949
+    },
+    "under_location": {
+     "topic": 38.61005493277466,
+     "location": 78.6693692589862
+    },
+    "switch": {
+     "topic": 23.58874391183211,
+     "location": 29.579330761156704
+    },
+    "nyt": 69.47119905951605
+   }
+  },
+  "ie": {
+   "top_alone": {
+    "under_emotion": {
+     "emotion": 30.029440628066734,
+     "intent": 69.97055937193328
+    },
+    "under_intent": {
+     "emotion": 69.33267909715407,
+     "intent": 30.66732090284593
+    },
+    "switch": {
+     "emotion": -39.30323846908733,
+     "intent": -39.30323846908735
+    },
+    "ie": 60.69676153091267
+   },
+   "top_relayed": {
+    "under_emotion": {
+     "emotion": 38.272816486751715,
+     "intent": 61.727183513248285
+    },
+    "under_intent": {
+     "emotion": 54.023552502453384,
+     "intent": 45.976447497546616
+    },
+    "switch": {
+     "emotion": -15.75073601570167,
+     "intent": -15.75073601570167
+    },
+    "ie": 84.24926398429832
+   },
+   "random_alone": {
+    "under_emotion": {
+     "emotion": 34.543670264965655,
+     "intent": 65.45632973503434
+    },
+    "under_intent": {
+     "emotion": 33.56231599607458,
+     "intent": 66.43768400392541
+    },
+    "switch": {
+     "emotion": 0.9813542688910744,
+     "intent": 0.9813542688910672
+    },
+    "ie": 100.98135426889107
+   },
+   "random_relayed": {
+    "under_emotion": {
+     "emotion": 65.7016683022571,
+     "intent": 34.29833169774288
+    },
+    "under_intent": {
+     "emotion": 17.76251226692836,
+     "intent": 82.23748773307163
+    },
+    "switch": {
+     "emotion": 47.93915603532874,
+     "intent": 47.93915603532875
+    },
+    "ie": 147.93915603532872
+   }
+  }
+ },
+ "gte-large-en-v1.5": {
+  "nyt": {
+   "top_alone": {
+    "under_topic": {
+     "topic": 56.09926542657847,
+     "location": 48.27990206685781
+    },
+    "under_location": {
+     "topic": 56.85376968623851,
+     "location": 38.06086743416919
+    },
+    "switch": {
+     "topic": -0.7545042596600382,
+     "location": -10.219034632688619
+    },
+    "nyt": 45.35224493980485
+   },
+   "top_relayed": {
+    "under_topic": {
+     "topic": 55.580122753976845,
+     "location": 48.31499332274906
+    },
+    "under_location": {
+     "topic": 60.22131999147622,
+     "location": 39.976398592765385
+    },
+    "switch": {
+     "topic": -4.641197237499377,
+     "location": -8.338594729983676
+    },
+    "nyt": 46.504270136876535
+   },
+   "random_alone": {
+    "under_topic": {
+     "topic": 62.706271264642574,
+     "location": 51.4718686578905
+    },
+    "under_location": {
+     "topic": 56.24939881539276,
+     "location": 57.138778574113694
+    },
+    "switch": {
+     "topic": 6.456872449249815,
+     "location": 5.666909916223197
+    },
+    "nyt": 59.79320387098947
+   },
+   "random_relayed": {
+    "under_topic": {
+     "topic": 60.44424596912583,
+     "location": 48.502462283443556
+    },
+    "under_location": {
+     "topic": 37.98762143902834,
+     "location": 79.31846408422604
+    },
+    "switch": {
+     "topic": 22.456624530097493,
+     "location": 30.81600180078248
+    },
+    "nyt": 68.60692313616092
+   }
+  },
+  "ie": {
+   "top_alone": {
+    "under_emotion": {
+     "emotion": 20.26496565260059,
+     "intent": 79.73503434739942
+    },
+    "under_intent": {
+     "emotion": 59.32286555446517,
+     "intent": 40.67713444553484
+    },
+    "switch": {
+     "emotion": -39.05789990186457,
+     "intent": -39.05789990186458
+    },
+    "ie": 60.94210009813543
+   },
+   "top_relayed": {
+    "under_emotion": {
+     "emotion": 26.594700686947988,
+     "intent": 73.40529931305201
+    },
+    "under_intent": {
+     "emotion": 46.36898920510304,
+     "intent": 53.63101079489696
+    },
+    "switch": {
+     "emotion": -19.774288518155053,
+     "intent": -19.774288518155053
+    },
+    "ie": 80.22571148184494
+   },
+   "random_alone": {
+    "under_emotion": {
+     "emotion": 27.821393523061825,
+     "intent": 72.17860647693819
+    },
+    "under_intent": {
+     "emotion": 25.90775269872424,
+     "intent": 74.09224730127576
+    },
+    "switch": {
+     "emotion": 1.913640824337584,
+     "intent": 1.9136408243375769
+    },
+    "ie": 101.91364082433759
+   },
+   "random_relayed": {
+    "under_emotion": {
+     "emotion": 49.55839057899902,
+     "intent": 50.441609421000976
+    },
+    "under_intent": {
+     "emotion": 14.965652600588813,
+     "intent": 85.03434739941119
+    },
+    "switch": {
+     "emotion": 34.592737978410206,
+     "intent": 34.59273797841021
+    },
+    "ie": 134.5927379784102
+   }
+  }
+ },
+ "all-mpnet-base-v2": {
+  "nyt": {
+   "top_alone": {
+    "under_topic": {
+     "topic": 53.1872257080947,
+     "location": 50.23672609737285
+    },
+    "under_location": {
+     "topic": 56.36120807480231,
+     "location": 37.70710444350141
+    },
+    "switch": {
+     "topic": -3.1739823667076124,
+     "location": -12.529621653871445
+    },
+    "nyt": 44.128963192055124
+   },
+   "top_relayed": {
+    "under_topic": {
+     "topic": 54.60255222579987,
+     "location": 50.48103683426307
+    },
+    "under_location": {
+     "topic": 59.61862854987212,
+     "location": 38.10201487495651
+    },
+    "switch": {
+     "topic": -5.016076324072252,
+     "location": -12.379021959306563
+    },
+    "nyt": 44.88381364931911
+   },
+   "random_alone": {
+    "under_topic": {
+     "topic": 54.47392453713221,
+     "location": 57.53002268325407
+    },
+    "under_location": {
+     "topic": 55.702801363562656,
+     "location": 57.10299985564106
+    },
+    "switch": {
+     "topic": -1.2288768264304437,
+     "location": -0.42702282761300836
+    },
+    "nyt": 55.757487883465195
+   },
+   "random_relayed": {
+    "under_topic": {
+     "topic": 56.635766533130315,
+     "location": 53.44105975317165
+    },
+    "under_location": {
+     "topic": 38.763060874596235,
+     "location": 81.08215859064624
+    },
+    "switch": {
+     "topic": 17.87270565853408,
+     "location": 27.641098837474594
+    },
+    "nyt": 66.68921565266777
+   }
+  },
+  "ie": {
+   "top_alone": {
+    "under_emotion": {
+     "emotion": 24.730127576054954,
+     "intent": 75.26987242394505
+    },
+    "under_intent": {
+     "emotion": 52.06084396467124,
+     "intent": 47.93915603532876
+    },
+    "switch": {
+     "emotion": -27.33071638861629,
+     "intent": -27.33071638861629
+    },
+    "ie": 72.66928361138372
+   },
+   "top_relayed": {
+    "under_emotion": {
+     "emotion": 33.07163886162905,
+     "intent": 66.92836113837095
+    },
+    "under_intent": {
+     "emotion": 49.31305201177626,
+     "intent": 50.68694798822375
+    },
+    "switch": {
+     "emotion": -16.24141315014721,
+     "intent": -16.241413150147196
+    },
+    "ie": 83.7585868498528
+   },
+   "random_alone": {
+    "under_emotion": {
+     "emotion": 24.386653581943083,
+     "intent": 75.61334641805692
+    },
+    "under_intent": {
+     "emotion": 23.552502453385674,
+     "intent": 76.44749754661433
+    },
+    "switch": {
+     "emotion": 0.8341511285574086,
+     "intent": 0.8341511285574086
+    },
+    "ie": 100.83415112855741
+   },
+   "random_relayed": {
+    "under_emotion": {
+     "emotion": 48.38076545632973,
+     "intent": 51.61923454367027
+    },
+    "under_intent": {
+     "emotion": 17.46810598626104,
+     "intent": 82.53189401373896
+    },
+    "switch": {
+     "emotion": 30.912659470068693,
+     "intent": 30.912659470068697
+    },
+    "ie": 130.9126594700687
+   }
+  }
+ },
+ "e5-large-v2": {
+  "nyt": {
+   "top_alone": {
+    "under_topic": {
+     "topic": 54.747930437014766,
+     "location": 37.792117843724114
+    },
+    "under_location": {
+     "topic": 56.65349676624104,
+     "location": 34.09122199097395
+    },
+    "switch": {
+     "topic": -1.905566329226275,
+     "location": -3.7008958527501647
+    },
+    "nyt": 42.018047202027226
+   },
+   "top_relayed": {
+    "under_topic": {
+     "topic": 56.41988932245903,
+     "location": 37.1180485722106
+    },
+    "under_location": {
+     "topic": 55.765799202891756,
+     "location": 34.016825861394636
+    },
+    "switch": {
+     "topic": 0.6540901195672717,
+     "location": -3.1012227108159607
+    },
+    "nyt": 42.443504195797665
+   },
+   "random_alone": {
+    "under_topic": {
+     "topic": 59.69244753885533,
+     "location": 51.81363101907064
+    },
+    "under_location": {
+     "topic": 58.27876982129284,
+     "location": 51.31379876814236
+    },
+    "switch": {
+     "topic": 1.4136777175624928,
+     "location": -0.49983225092827865
+    },
+    "nyt": 55.18691682426583
+   },
+   "random_relayed": {
+    "under_topic": {
+     "topic": 63.02879487988737,
+     "location": 47.25782642210204
+    },
+    "under_location": {
+     "topic": 45.375946838323316,
+     "location": 80.33495845335501
+    },
+    "switch": {
+     "topic": 17.652848041564056,
+     "location": 33.07713203125297
+    },
+    "nyt": 70.63731940995984
+   }
+  },
+  "ie": {
+   "top_alone": {
+    "under_emotion": {
+     "emotion": 49.70559371933268,
+     "intent": 50.294406280667324
+    },
+    "under_intent": {
+     "emotion": 81.30520117762512,
+     "intent": 18.694798822374878
+    },
+    "switch": {
+     "emotion": -31.59960745829244,
+     "intent": -31.599607458292446
+    },
+    "ie": 68.40039254170756
+   },
+   "top_relayed": {
+    "under_emotion": {
+     "emotion": 54.80863591756624,
+     "intent": 45.19136408243376
+    },
+    "under_intent": {
+     "emotion": 79.6368989205103,
+     "intent": 20.363101079489695
+    },
+    "switch": {
+     "emotion": -24.828263002944063,
+     "intent": -24.828263002944063
+    },
+    "ie": 75.17173699705594
+   },
+   "random_alone": {
+    "under_emotion": {
+     "emotion": 54.072620215897935,
+     "intent": 45.927379784102065
+    },
+    "under_intent": {
+     "emotion": 52.845927379784094,
+     "intent": 47.1540726202159
+    },
+    "switch": {
+     "emotion": 1.2266928361138412,
+     "intent": 1.226692836113834
+    },
+    "ie": 101.22669283611384
+   },
+   "random_relayed": {
+    "under_emotion": {
+     "emotion": 67.56624141315015,
+     "intent": 32.433758586849855
+    },
+    "under_intent": {
+     "emotion": 46.172718351324825,
+     "intent": 53.827281648675175
+    },
+    "switch": {
+     "emotion": 21.393523061825327,
+     "intent": 21.39352306182532
+    },
+    "ie": 121.39352306182533
+   }
+  }
+ }
+}

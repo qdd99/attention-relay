@@ -1,0 +1,214 @@
+{
+ "all-mpnet-base-v2": {
+  "none": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "under_intent": {
+     "emotion": 15.014720314033367,
+     "intent": 84.98527968596663
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   }
+  },
+  "before": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 7.114818449460255,
+     "intent": 92.88518155053974
+    },
+    "under_intent": {
+     "emotion": 8.194308145240432,
+     "intent": 91.80569185475956
+    },
+    "switch": {
+     "emotion": -1.0794896957801772,
+     "intent": -1.0794896957801825
+    },
+    "ie": 98.92051030421982
+   }
+  },
+  "after": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 7.5073601570166835,
+     "intent": 92.49263984298331
+    },
+    "under_intent": {
+     "emotion": 7.654563297350343,
+     "intent": 92.34543670264965
+    },
+    "switch": {
+     "emotion": -0.14720314033365955,
+     "intent": -0.14720314033365867
+    },
+    "ie": 99.85279685966633
+   }
+  }
+ },
+ "e5-large-v2": {
+  "none": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "under_intent": {
+     "emotion": 54.66143277723258,
+     "intent": 45.338567222767416
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   }
+  },
+  "before": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 53.68007850834151,
+     "intent": 46.31992149165849
+    },
+    "under_intent": {
+     "emotion": 40.77526987242395,
+     "intent": 59.22473012757605
+    },
+    "switch": {
+     "emotion": 12.904808635917561,
+     "intent": 12.904808635917561
+    },
+    "ie": 112.90480863591756
+   }
+  },
+  "after": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 50.392541707556425,
+     "intent": 49.607458292443575
+    },
+    "under_intent": {
+     "emotion": 29.29342492639843,
+     "intent": 70.70657507360157
+    },
+    "switch": {
+     "emotion": 21.099116781157996,
+     "intent": 21.099116781157996
+    },
+    "ie": 121.09911678115799
+   }
+  }
+ },
+ "bge-large-en-v1.5": {
+  "none": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 29.146221786064768,
+     "intent": 70.85377821393523
+    },
+    "under_intent": {
+     "emotion": 29.146221786064768,
+     "intent": 70.85377821393523
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   }
+  },
+  "before": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 9.568204121687929,
+     "intent": 90.43179587831207
+    },
+    "under_intent": {
+     "emotion": 9.028459273797841,
+     "intent": 90.97154072620216
+    },
+    "switch": {
+     "emotion": 0.5397448478900877,
+     "intent": 0.5397448478900913
+    },
+    "ie": 100.53974484789009
+   }
+  },
+  "after": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 10.598626104023552,
+     "intent": 89.40137389597645
+    },
+    "under_intent": {
+     "emotion": 10.647693817468106,
+     "intent": 89.35230618253189
+    },
+    "switch": {
+     "emotion": -0.04906771344455407,
+     "intent": -0.049067713444557626
+    },
+    "ie": 99.95093228655544
+   }
+  }
+ },
+ "gte-large-en-v1.5": {
+  "none": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 22.718351324828262,
+     "intent": 77.28164867517174
+    },
+    "under_intent": {
+     "emotion": 22.718351324828262,
+     "intent": 77.28164867517174
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   }
+  },
+  "before": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 11.579980372914623,
+     "intent": 88.42001962708538
+    },
+    "under_intent": {
+     "emotion": 8.488714425907752,
+     "intent": 91.51128557409226
+    },
+    "switch": {
+     "emotion": 3.091265947006871,
+     "intent": 3.0912659470068746
+    },
+    "ie": 103.09126594700687
+   }
+  },
+  "after": {
+   "ie": {
+    "under_emotion": {
+     "emotion": 11.138370951913641,
+     "intent": 88.86162904808636
+    },
+    "under_intent": {
+     "emotion": 7.212953876349363,
+     "intent": 92.78704612365064
+    },
+    "switch": {
+     "emotion": 3.9254170755642788,
+     "intent": 3.925417075564283
+    },
+    "ie": 103.92541707556428
+   }
+  }
+ }
+}

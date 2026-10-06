@@ -1,0 +1,123 @@
+{
+ "plain": {
+  "nyt": {
+   "alone": {
+    "under_topic": {
+     "topic": 59.51246962535297,
+     "location": 53.57563878601142
+    },
+    "under_location": {
+     "topic": 59.51246962535297,
+     "location": 53.57563878601142
+    },
+    "switch": {
+     "topic": 0.0,
+     "location": 0.0
+    },
+    "nyt": 56.38822013513817
+   },
+   "relayed": {
+    "under_topic": {
+     "topic": 59.653351016368795,
+     "location": 47.953360165352
+    },
+    "under_location": {
+     "topic": 39.88496576459138,
+     "location": 80.06971620585176
+    },
+    "switch": {
+     "topic": 19.768385251777417,
+     "location": 32.11635604049976
+    },
+    "nyt": 68.36991173372861
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    7.207552394846077,
+    15.869776207437821
+   ]
+  },
+  "ie": {
+   "alone": {
+    "under_emotion": {
+     "emotion": 28.900883218842,
+     "intent": 71.099116781158
+    },
+    "under_intent": {
+     "emotion": 28.900883218842,
+     "intent": 71.099116781158
+    },
+    "switch": {
+     "emotion": 0.0,
+     "intent": 0.0
+    },
+    "ie": 100.0
+   },
+   "relayed": {
+    "under_emotion": {
+     "emotion": 69.28361138370953,
+     "intent": 30.71638861629048
+    },
+    "under_intent": {
+     "emotion": 10.647693817468106,
+     "intent": 89.35230618253189
+    },
+    "switch": {
+     "emotion": 58.63591756624142,
+     "intent": 58.63591756624141
+    },
+    "ie": 158.6359175662414
+   },
+   "shuffled": [],
+   "other_text": [],
+   "interval": [
+    55.74092247301278,
+    61.57998037291461
+   ]
+  }
+ },
+ "difference": {
+  "nyt": {
+   "plain": 67.79,
+   "mass_preserving": 65.43,
+   "difference_interval": [
+    -4.17,
+    4.12
+   ],
+   "topic_difference_interval": [
+    -6.36,
+    5.39
+   ],
+   "location_difference_interval": [
+    -5.07,
+    6.2
+   ],
+   "share_of_replicates_above_zero": 0.495
+  },
+  "ie": {
+   "plain": 158.64,
+   "mass_preserving": 157.75,
+   "difference_interval": [
+    0.25,
+    1.57
+   ],
+   "emotion_difference_interval": [
+    -0.05,
+    1.03
+   ],
+   "intent_difference_interval": [
+    0.0,
+    0.79
+   ],
+   "triplets_changed": {
+    "emotion": 32,
+    "intent": 16,
+    "of": [
+     2038,
+     2038
+    ]
+   }
+  }
+ }
+}
